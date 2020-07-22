@@ -1,0 +1,77 @@
+/* line 1, ../scss/stylechic.scss */
+header {
+  background-color: #009688;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+}
+
+/* line 10, ../scss/stylechic.scss */
+body {
+  width: 100%;
+  margin: 0;
+}
+
+/* line 15, ../scss/stylechic.scss */
+main {
+  width: 100%;
+}
+
+/* line 19, ../scss/stylechic.scss */
+h3 {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 22, ../scss/stylechic.scss */
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+/* line 26, ../scss/stylechic.scss */
+h2 {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 29, ../scss/stylechic.scss */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #009688;
+  color: yellow;
+  margin-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* line 40, ../scss/stylechic.scss */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* line 48, ../scss/stylechic.scss */
+#conteneur {
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid gray;
+  padding: 10%;
+}
+
+/* line 57, ../scss/stylechic.scss */
+.note {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 64, ../scss/stylechic.scss */
+.élement {
+  width: 90%;
+}

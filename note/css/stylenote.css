@@ -1,0 +1,78 @@
+/* line 1, ../scss/stylenote.scss */
+header {
+  background-color: #009688;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+}
+
+/* line 10, ../scss/stylenote.scss */
+body {
+  width: 100%;
+  margin: 0;
+}
+
+/* line 15, ../scss/stylenote.scss */
+main {
+  width: 100%;
+}
+
+/* line 19, ../scss/stylenote.scss */
+h3 {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 22, ../scss/stylenote.scss */
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+/* line 26, ../scss/stylenote.scss */
+h2 {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 29, ../scss/stylenote.scss */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #009688;
+  color: yellow;
+  margin-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* line 40, ../scss/stylenote.scss */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* line 48, ../scss/stylenote.scss */
+#conteneur {
+  background-color: #ffcdd2;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid gray;
+  padding: 10%;
+}
+
+/* line 57, ../scss/stylenote.scss */
+.note {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 64, ../scss/stylenote.scss */
+.élement {
+  width: 90%;
+}
