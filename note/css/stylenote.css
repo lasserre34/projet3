@@ -7,36 +7,45 @@ header {
   margin-bottom: 5%;
 }
 
-/* line 10, ../scss/stylenote.scss */
+/* line 15, ../scss/stylenote.scss */
 body {
   width: 100%;
   margin: 0;
+  font-family: Apple Chancery, cursive;
 }
 
-/* line 15, ../scss/stylenote.scss */
+/* line 20, ../scss/stylenote.scss */
+.fa-music {
+  color: purple;
+  font-size: 50px;
+}
+
+/* line 25, ../scss/stylenote.scss */
 main {
   width: 100%;
 }
 
-/* line 19, ../scss/stylenote.scss */
+/* line 29, ../scss/stylenote.scss */
 h3 {
   text-align: center;
-  width: 100%;
+  width: auto;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
-/* line 22, ../scss/stylenote.scss */
+/* line 36, ../scss/stylenote.scss */
 h1 {
   color: yellow;
   text-align: center;
 }
 
-/* line 26, ../scss/stylenote.scss */
+/* line 40, ../scss/stylenote.scss */
 h2 {
   text-align: center;
   width: 100%;
 }
 
-/* line 29, ../scss/stylenote.scss */
+/* line 44, ../scss/stylenote.scss */
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -48,7 +57,7 @@ footer {
   padding-right: 2%;
 }
 
-/* line 40, ../scss/stylenote.scss */
+/* line 55, ../scss/stylenote.scss */
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +65,7 @@ footer {
   width: 100%;
 }
 
-/* line 48, ../scss/stylenote.scss */
+/* line 63, ../scss/stylenote.scss */
 #conteneur {
   background-color: #ffcdd2;
   margin-bottom: 5%;
@@ -66,13 +75,41 @@ footer {
   padding: 10%;
 }
 
-/* line 57, ../scss/stylenote.scss */
-.note {
+/* line 72, ../scss/stylenote.scss */
+.notehaut {
   text-align: center;
   width: 100%;
 }
 
-/* line 64, ../scss/stylenote.scss */
+/* line 77, ../scss/stylenote.scss */
+.lanote {
+  padding: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 85, ../scss/stylenote.scss */
 .élement {
   width: 90%;
+}
+
+/* line 89, ../scss/stylenote.scss */
+.trai {
+  border-top: 2px solid black;
+  width: 100%;
+  margin-top: 6.5%;
+}
+
+/* line 95, ../scss/stylenote.scss */
+.trai {
+  border-top: 2px solid black;
+  width: 100%;
+  margin-top: 6.5%;
+}
+
+/* line 101, ../scss/stylenote.scss */
+.traitflex:before:after {
+  display: flex;
+  border-top: 2px solid black;
+  width: 10%;
 }

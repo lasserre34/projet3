@@ -14,10 +14,14 @@ body{
 
 main{
     width:100%;
+    color:#76FF03;
+    font-family:FreeMono, monospace ;
 }
 
 h3{text-align:center;
-width:100%;}
+width:100%;
+padding-left:4%;
+padding-right:4%;}
 
 h1{
     color:yellow;
@@ -63,4 +67,23 @@ footer{
 
 .élement{
    width:90%;
+}
+
+
+.traitflex{
+    display:flex;
+
+}
+
+.trait{
+    border-top: 2px solid #76FF03;
+    margin-top:6.5%;
+    width:100%;
+
+}
+
+.trait2{
+    border-top: 2px solid #76FF03;
+    margin-top:6.5%;
+    width:100%;
 }

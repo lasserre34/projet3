@@ -20,7 +20,7 @@ h1 {
 }
 
 /* line 19, ../scss/style.scss */
-main {
+#conteneur {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -29,20 +29,7 @@ main {
 /* line 26, ../scss/style.scss */
 .lanote {
   background-color: #ffcdd2;
-}
-
-/* line 32, ../scss/style.scss */
-.lechic {
-  background-color: #FAFAFA;
-}
-
-/* line 49, ../scss/style.scss */
-.fa-music {
-  width: 15%;
-}
-
-/* line 54, ../scss/style.scss */
-section {
+  font-family: Apple Chancery, cursive;
   border: 3px solid #E0E0E0;
   text-align: center;
   padding-top: 20%;
@@ -51,12 +38,81 @@ section {
   margin-top: 5%;
   transform: scale(1);
 }
-/* line 63, ../scss/style.scss */
-section:hover {
+/* line 37, ../scss/style.scss */
+.lanote:hover {
   transform: scale(1.1);
 }
 
-/* line 74, ../scss/style.scss */
+/* line 46, ../scss/style.scss */
+.lechic {
+  border: 3px solid #E0E0E0;
+  background-color: #FAFAFA;
+  font-family: Snell Roundhand, cursive;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  width: 33.3%;
+  margin-top: 5%;
+  transform: scale(1);
+}
+/* line 56, ../scss/style.scss */
+.lechic:hover {
+  transform: scale(1.1);
+}
+
+/* line 63, ../scss/style.scss */
+h3 {
+  background: -webkit-linear-gradient(#3f51b5, #03a9f4, #40c4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 72, ../scss/style.scss */
+.ledelice {
+  border: 3px solid #E0E0E0;
+  background-color: #FAFAFA;
+  font-family: Snell Roundhand, cursive;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  width: 33.3%;
+  margin-top: 5%;
+  transform: scale(1);
+}
+/* line 82, ../scss/style.scss */
+.ledelice:hover {
+  transform: scale(1.1);
+}
+
+/* line 92, ../scss/style.scss */
+.lapalette {
+  border: 3px solid #E0E0E0;
+  background-color: #FAFAFA;
+  font-family: Snell Roundhand, cursive;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  width: 33.3%;
+  margin-top: 5%;
+  transform: scale(1);
+}
+/* line 102, ../scss/style.scss */
+.lapalette:hover {
+  transform: scale(1.1);
+}
+
+/* line 111, ../scss/style.scss */
+.fa-music {
+  font-size: 50px;
+  color: purple;
+}
+
+/* line 118, ../scss/style.scss */
+a:link {
+  text-decoration: none;
+}
+
+/* line 130, ../scss/style.scss */
 .pro {
   border-radius: 8px;
   margin-top: 2.5%;
@@ -67,12 +123,12 @@ section:hover {
   background-color: #009688;
   color: yellow;
 }
-/* line 83, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 .pro:hover {
   transform: scale(1.15);
 }
 
-/* line 91, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -83,4 +139,73 @@ footer {
   padding-left: 2%;
   padding-right: 2%;
   font-size: 20px;
+}
+
+/* line 160, ../scss/style.scss */
+.lienfooter {
+  color: yellow;
+}
+
+/* line 164, ../scss/style.scss */
+p:hover {
+  animation-name: bouge;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bouge {
+  /* line 175, ../scss/style.scss */
+  0% {
+    transform: translate(2px, 2px);
+  }
+
+  /* line 176, ../scss/style.scss */
+  10% {
+    transform: translate(-2px, -2px);
+  }
+
+  /* line 177, ../scss/style.scss */
+  20% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 178, ../scss/style.scss */
+  30% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 179, ../scss/style.scss */
+  40% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 180, ../scss/style.scss */
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 181, ../scss/style.scss */
+  60% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 182, ../scss/style.scss */
+  70% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 183, ../scss/style.scss */
+  80% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 184, ../scss/style.scss */
+  90% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 185, ../scss/style.scss */
+  100% {
+    -webkit-transform: translate(2px, 2px);
+  }
 }

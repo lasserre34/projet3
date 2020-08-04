@@ -16,27 +16,31 @@ body {
 /* line 15, ../scss/stylechic.scss */
 main {
   width: 100%;
+  color: #76FF03;
+  font-family: FreeMono, monospace;
 }
 
-/* line 19, ../scss/stylechic.scss */
+/* line 21, ../scss/stylechic.scss */
 h3 {
   text-align: center;
   width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
-/* line 22, ../scss/stylechic.scss */
+/* line 26, ../scss/stylechic.scss */
 h1 {
   color: yellow;
   text-align: center;
 }
 
-/* line 26, ../scss/stylechic.scss */
+/* line 30, ../scss/stylechic.scss */
 h2 {
   text-align: center;
   width: 100%;
 }
 
-/* line 29, ../scss/stylechic.scss */
+/* line 33, ../scss/stylechic.scss */
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -48,7 +52,7 @@ footer {
   padding-right: 2%;
 }
 
-/* line 40, ../scss/stylechic.scss */
+/* line 44, ../scss/stylechic.scss */
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +60,7 @@ footer {
   width: 100%;
 }
 
-/* line 48, ../scss/stylechic.scss */
+/* line 52, ../scss/stylechic.scss */
 #conteneur {
   margin-bottom: 5%;
   margin-left: 10%;
@@ -65,13 +69,32 @@ footer {
   padding: 10%;
 }
 
-/* line 57, ../scss/stylechic.scss */
+/* line 61, ../scss/stylechic.scss */
 .note {
   text-align: center;
   width: 100%;
 }
 
-/* line 64, ../scss/stylechic.scss */
+/* line 68, ../scss/stylechic.scss */
 .élement {
   width: 90%;
+}
+
+/* line 73, ../scss/stylechic.scss */
+.traitflex {
+  display: flex;
+}
+
+/* line 78, ../scss/stylechic.scss */
+.trait {
+  border-top: 2px solid #76FF03;
+  margin-top: 6.5%;
+  width: 100%;
+}
+
+/* line 85, ../scss/stylechic.scss */
+.trait2 {
+  border-top: 2px solid #76FF03;
+  margin-top: 6.5%;
+  width: 100%;
 }
