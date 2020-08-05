@@ -28,17 +28,10 @@ background-color:#ffcdd2;
 font-family: Apple Chancery, cursive;
 border:3px solid #E0E0E0;
     text-align: center;
-    padding-top:20%;
-    padding-bottom:20%;
     width:33.3%;
     margin-top:5%;
-   transform: scale(1) ;
+    
 
-   &:hover{
-       transform: scale(1.10);
-     
-
-}
 
 
 }
@@ -47,20 +40,14 @@ border:3px solid #E0E0E0;
     background-color:#FAFAFA;
     font-family:Snell Roundhand, cursive ;
     text-align: center;
-    padding-top:20%;
-    padding-bottom:20%;
     width:33.3%;
     margin-top:5%;
-   transform: scale(1) ;
+ 
 
-   &:hover{
-       transform: scale(1.10);
-     
 
-}
 }
    
-    h3{
+    h2{
         background: -webkit-linear-gradient(#3F51B5, #03A9F4, #40C4FF );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -73,39 +60,38 @@ border:3px solid #E0E0E0;
     background-color:#FAFAFA;
     font-family:Snell Roundhand, cursive ;
     text-align: center;
-    padding-top:20%;
-    padding-bottom:20%;
     width:33.3%;
     margin-top:5%;
-   transform: scale(1) ;
-
-   &:hover{
-       transform: scale(1.10);
-     
+  
 
 }
     
    
 
-}
+
 
 .lapalette{border:3px solid #E0E0E0;
     background-color:#FAFAFA;
     font-family:Snell Roundhand, cursive ;
     text-align: center;
-    padding-top:20%;
-    padding-bottom:20%;
     width:33.3%;
     margin-top:5%;
-   transform: scale(1) ;
-
-   &:hover{
-       transform: scale(1.10);
+  
      
 
 }
     
     
+
+
+.menu{
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    transform: scale(1) ;
+    &:hover{
+        transform: scale(1.20);
+    }
 }
 
 .fa-music{
@@ -136,13 +122,17 @@ font-size: 22px;
 transform:scale(1,1);
 
     background-color:#009688;
-    color:yellow;
+    
     &:hover{
         transform:scale(1.15);
        
 
         }
 
+}
+
+.colorpro{
+    color:yellow;
 }
 
 footer{
@@ -191,4 +181,80 @@ p:hover{
 }
 
 
+ul{ display:inline-block;}
+ 
+  li {
+    display:inline-block;
+    animation: prochainement 7s linear infinite ;
+    color:#009688
+}
+
+
+
+@keyframes prochainement{
+    0%{
+        color:yellow;
+       
+
+    }
+
+    10%{
+        color:yellow;
+        
+    
+    }
+    20%{
+        color:yellow;
+    }
+    30%{
+        color:yellow;
+    }
+    40%{
+        color:yellow;
+    }
+    50%{
+        color:yellow;
+    }
+    60%{
+        color:#009688;
+    }
+    70%{
+        color:#009688;
+    }
+    80%{
+        color:#009688;
+    }
+    
+    
+    90%{
+        color:#009688;
+    }
+
+    100%{
+        color:#009688;
+    }
+
+}
+
+li:nth-child(1){
+     
+ animation-delay:3s ;
+}
+
+
+li:nth-child(2){
+    animation-delay: 4s ;
+    
+}
+
+li:nth-child(3){
+    animation-delay: 5s;
+
+}
+
+li:nth-child(4){
+    animation-delay:6s
+    
+    ;
+}
 

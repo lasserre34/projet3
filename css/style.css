@@ -32,87 +32,71 @@ h1 {
   font-family: Apple Chancery, cursive;
   border: 3px solid #E0E0E0;
   text-align: center;
-  padding-top: 20%;
-  padding-bottom: 20%;
   width: 33.3%;
   margin-top: 5%;
-  transform: scale(1);
-}
-/* line 37, ../scss/style.scss */
-.lanote:hover {
-  transform: scale(1.1);
 }
 
-/* line 46, ../scss/style.scss */
+/* line 39, ../scss/style.scss */
 .lechic {
   border: 3px solid #E0E0E0;
   background-color: #FAFAFA;
   font-family: Snell Roundhand, cursive;
   text-align: center;
-  padding-top: 20%;
-  padding-bottom: 20%;
   width: 33.3%;
   margin-top: 5%;
-  transform: scale(1);
-}
-/* line 56, ../scss/style.scss */
-.lechic:hover {
-  transform: scale(1.1);
 }
 
-/* line 63, ../scss/style.scss */
-h3 {
+/* line 50, ../scss/style.scss */
+h2 {
   background: -webkit-linear-gradient(#3f51b5, #03a9f4, #40c4ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 72, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 .ledelice {
   border: 3px solid #E0E0E0;
   background-color: #FAFAFA;
   font-family: Snell Roundhand, cursive;
   text-align: center;
-  padding-top: 20%;
-  padding-bottom: 20%;
   width: 33.3%;
   margin-top: 5%;
-  transform: scale(1);
-}
-/* line 82, ../scss/style.scss */
-.ledelice:hover {
-  transform: scale(1.1);
 }
 
-/* line 92, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 .lapalette {
   border: 3px solid #E0E0E0;
   background-color: #FAFAFA;
   font-family: Snell Roundhand, cursive;
   text-align: center;
-  padding-top: 20%;
-  padding-bottom: 20%;
   width: 33.3%;
   margin-top: 5%;
-  transform: scale(1);
-}
-/* line 102, ../scss/style.scss */
-.lapalette:hover {
-  transform: scale(1.1);
 }
 
-/* line 111, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
+.menu {
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  transform: scale(1);
+}
+/* line 92, ../scss/style.scss */
+.menu:hover {
+  transform: scale(1.2);
+}
+
+/* line 97, ../scss/style.scss */
 .fa-music {
   font-size: 50px;
   color: purple;
 }
 
-/* line 118, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 a:link {
   text-decoration: none;
 }
 
-/* line 130, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 .pro {
   border-radius: 8px;
   margin-top: 2.5%;
@@ -121,14 +105,18 @@ a:link {
   font-size: 22px;
   transform: scale(1, 1);
   background-color: #009688;
-  color: yellow;
 }
-/* line 140, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .pro:hover {
   transform: scale(1.15);
 }
 
-/* line 148, ../scss/style.scss */
+/* line 134, ../scss/style.scss */
+.colorpro {
+  color: yellow;
+}
+
+/* line 138, ../scss/style.scss */
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -141,12 +129,12 @@ footer {
   font-size: 20px;
 }
 
-/* line 160, ../scss/style.scss */
+/* line 150, ../scss/style.scss */
 .lienfooter {
   color: yellow;
 }
 
-/* line 164, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 p:hover {
   animation-name: bouge;
   animation-duration: 1s;
@@ -154,58 +142,147 @@ p:hover {
 }
 
 @keyframes bouge {
-  /* line 175, ../scss/style.scss */
+  /* line 165, ../scss/style.scss */
   0% {
     transform: translate(2px, 2px);
   }
 
-  /* line 176, ../scss/style.scss */
+  /* line 166, ../scss/style.scss */
   10% {
     transform: translate(-2px, -2px);
   }
 
-  /* line 177, ../scss/style.scss */
+  /* line 167, ../scss/style.scss */
   20% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 178, ../scss/style.scss */
+  /* line 168, ../scss/style.scss */
   30% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 179, ../scss/style.scss */
+  /* line 169, ../scss/style.scss */
   40% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 180, ../scss/style.scss */
+  /* line 170, ../scss/style.scss */
   50% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 181, ../scss/style.scss */
+  /* line 171, ../scss/style.scss */
   60% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 182, ../scss/style.scss */
+  /* line 172, ../scss/style.scss */
   70% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 183, ../scss/style.scss */
+  /* line 173, ../scss/style.scss */
   80% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 184, ../scss/style.scss */
+  /* line 174, ../scss/style.scss */
   90% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 185, ../scss/style.scss */
+  /* line 175, ../scss/style.scss */
   100% {
     -webkit-transform: translate(2px, 2px);
   }
+}
+
+/* line 184, ../scss/style.scss */
+ul {
+  display: inline-block;
+}
+
+/* line 186, ../scss/style.scss */
+li {
+  display: inline-block;
+  animation: prochainement 7s linear infinite;
+  color: #009688;
+}
+
+@keyframes prochainement {
+  /* line 195, ../scss/style.scss */
+  0% {
+    color: yellow;
+  }
+
+  /* line 201, ../scss/style.scss */
+  10% {
+    color: yellow;
+  }
+
+  /* line 206, ../scss/style.scss */
+  20% {
+    color: yellow;
+  }
+
+  /* line 209, ../scss/style.scss */
+  30% {
+    color: yellow;
+  }
+
+  /* line 212, ../scss/style.scss */
+  40% {
+    color: yellow;
+  }
+
+  /* line 215, ../scss/style.scss */
+  50% {
+    color: yellow;
+  }
+
+  /* line 218, ../scss/style.scss */
+  60% {
+    color: #009688;
+  }
+
+  /* line 221, ../scss/style.scss */
+  70% {
+    color: #009688;
+  }
+
+  /* line 224, ../scss/style.scss */
+  80% {
+    color: #009688;
+  }
+
+  /* line 229, ../scss/style.scss */
+  90% {
+    color: #009688;
+  }
+
+  /* line 233, ../scss/style.scss */
+  100% {
+    color: #009688;
+  }
+}
+
+/* line 239, ../scss/style.scss */
+li:nth-child(1) {
+  animation-delay: 3s;
+}
+
+/* line 245, ../scss/style.scss */
+li:nth-child(2) {
+  animation-delay: 4s;
+}
+
+/* line 250, ../scss/style.scss */
+li:nth-child(3) {
+  animation-delay: 5s;
+}
+
+/* line 255, ../scss/style.scss */
+li:nth-child(4) {
+  animation-delay: 6s;
 }
