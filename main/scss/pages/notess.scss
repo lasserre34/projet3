@@ -1,0 +1,88 @@
+
+
+
+
+
+h3{
+
+    display:table;
+    white-space: nowrap;
+    text-align:center;
+
+}
+
+h3:before , h3:after {
+    display:table-cell;
+    width:50%;
+    background: repeat-x left center
+}
+
+.fa-music{
+    color:purple;
+   font-size: 50px;
+  
+}
+main{
+    width:100%;
+}
+
+
+
+h2{ text-align:center;
+    width:100%;
+    
+    }
+    
+    ul{
+        padding:0;
+     text-decoration:none;
+      display:flex;
+        justify-content:space-around;
+        width:100%;
+     flex-wrap: wrap;;
+    
+    }
+    li{
+        display:flex;
+    padding-top:5%;
+
+    }
+    
+
+
+
+    #conteneur{
+        background-color: #ffcdd2;
+        margin-bottom:5%;
+        margin-left:10%;
+        margin-right:10%;
+        border:2px solid gray;
+        padding:10%;
+     
+     }
+     .notehaut{
+        text-align:center;
+        width:100%;
+     }
+     
+     .lanote{
+         padding:5%;
+         text-align:center;
+         width:100%;
+     }
+     
+     
+     
+     .élement{
+        width:90%;
+     }
+     
+     .traitflex{
+         display:flex;   
+     }
+     
+     
+     a:link{
+         text-decoration: none;
+     }
+     

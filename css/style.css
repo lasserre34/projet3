@@ -6,17 +6,16 @@ header {
   padding-bottom: 1%;
   font-size: 30px;
 }
-
-/* line 9, ../scss/style.scss */
-body {
-  width: 100%;
-  margin: 0;
+/* line 7, ../scss/style.scss */
+header h1 {
+  color: yellow;
+  text-align: center;
 }
 
 /* line 13, ../scss/style.scss */
-h1 {
-  color: yellow;
-  text-align: center;
+body {
+  width: 100%;
+  margin: 0;
 }
 
 /* line 19, ../scss/style.scss */
@@ -26,51 +25,51 @@ h1 {
   justify-content: space-around;
 }
 
-/* line 26, ../scss/style.scss */
+/* line 35, ../scss/style.scss */
 .lanote {
-  background-color: #ffcdd2;
-  font-family: Apple Chancery, cursive;
   border: 3px solid #E0E0E0;
   text-align: center;
   width: 33.3%;
   margin-top: 5%;
+  background-color: #ffcdd2;
+  font-family: Apple chancery, cursive;
 }
 
-/* line 39, ../scss/style.scss */
+/* line 46, ../scss/style.scss */
 .lechic {
   border: 3px solid #E0E0E0;
-  background-color: #FAFAFA;
-  font-family: Snell Roundhand, cursive;
   text-align: center;
   width: 33.3%;
   margin-top: 5%;
+  background-color: #fafafa;
+  font-family: Snell Roundhand, cursive;
 }
 
-/* line 50, ../scss/style.scss */
+/* line 54, ../scss/style.scss */
 h2 {
   background: -webkit-linear-gradient(#3f51b5, #03a9f4, #40c4ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 59, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 .ledelice {
   border: 3px solid #E0E0E0;
-  background-color: #FAFAFA;
-  font-family: Snell Roundhand, cursive;
   text-align: center;
   width: 33.3%;
   margin-top: 5%;
+  background-color: #fafafa;
+  font-family: Snell Roundhand, cursive;
 }
 
-/* line 73, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .lapalette {
   border: 3px solid #E0E0E0;
-  background-color: #FAFAFA;
-  font-family: Snell Roundhand, cursive;
   text-align: center;
   width: 33.3%;
   margin-top: 5%;
+  background-color: #fafafa;
+  font-family: Snell Roundhand, cursive;
 }
 
 /* line 87, ../scss/style.scss */

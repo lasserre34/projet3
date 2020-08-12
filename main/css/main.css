@@ -1,0 +1,287 @@
+/* line 1, ../scss/layout/header.scss */
+header {
+  background-color: #009688;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 30px;
+}
+/* line 7, ../scss/layout/header.scss */
+header h1 {
+  color: yellow;
+  text-align: center;
+}
+
+/* line 1, ../scss/layout/footer.scss */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #009688;
+  color: yellow;
+  margin-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 20px;
+}
+
+/* line 13, ../scss/layout/footer.scss */
+.lienfooter {
+  color: yellow;
+}
+
+/* line 17, ../scss/layout/footer.scss */
+p:hover {
+  animation-name: bouge;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bouge {
+  /* line 28, ../scss/layout/footer.scss */
+  0% {
+    transform: translate(2px, 2px);
+  }
+
+  /* line 29, ../scss/layout/footer.scss */
+  10% {
+    transform: translate(-2px, -2px);
+  }
+
+  /* line 30, ../scss/layout/footer.scss */
+  20% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 31, ../scss/layout/footer.scss */
+  30% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 32, ../scss/layout/footer.scss */
+  40% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 33, ../scss/layout/footer.scss */
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 34, ../scss/layout/footer.scss */
+  60% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 35, ../scss/layout/footer.scss */
+  70% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 36, ../scss/layout/footer.scss */
+  80% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 37, ../scss/layout/footer.scss */
+  90% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 38, ../scss/layout/footer.scss */
+  100% {
+    -webkit-transform: translate(2px, 2px);
+  }
+}
+
+/* line 1, ../scss/pages/acceuil.scss */
+#conteneur {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* line 17, ../scss/pages/acceuil.scss */
+.lanote {
+  border: 3px solid #E0E0E0;
+  text-align: center;
+  width: 33.3%;
+  margin-top: 5%;
+  background-color: #ffcdd2;
+  font-family: Apple chancery, cursive;
+}
+
+/* line 28, ../scss/pages/acceuil.scss */
+.lechic {
+  border: 3px solid #E0E0E0;
+  text-align: center;
+  width: 33.3%;
+  margin-top: 5%;
+  background-color: #fafafa;
+  font-family: Snell Roundhand, cursive;
+}
+
+/* line 36, ../scss/pages/acceuil.scss */
+h2 {
+  background: -webkit-linear-gradient(#3f51b5, #03a9f4, #40c4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 45, ../scss/pages/acceuil.scss */
+.ledelice {
+  border: 3px solid #E0E0E0;
+  text-align: center;
+  width: 33.3%;
+  margin-top: 5%;
+  background-color: #fafafa;
+  font-family: Snell Roundhand, cursive;
+}
+
+/* line 57, ../scss/pages/acceuil.scss */
+.lapalette {
+  border: 3px solid #E0E0E0;
+  text-align: center;
+  width: 33.3%;
+  margin-top: 5%;
+  background-color: #fafafa;
+  font-family: Snell Roundhand, cursive;
+}
+
+/* line 69, ../scss/pages/acceuil.scss */
+.menu {
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  transform: scale(1);
+}
+/* line 74, ../scss/pages/acceuil.scss */
+.menu:hover {
+  transform: scale(1.2);
+}
+
+/* line 79, ../scss/pages/acceuil.scss */
+.fa-music {
+  font-size: 50px;
+  color: purple;
+}
+
+/* line 86, ../scss/pages/acceuil.scss */
+a:link {
+  text-decoration: none;
+}
+
+/* line 98, ../scss/pages/acceuil.scss */
+.pro {
+  border-radius: 8px;
+  margin-top: 2.5%;
+  margin-left: 35%;
+  width: 30%;
+  font-size: 22px;
+  transform: scale(1, 1);
+  background-color: #009688;
+}
+/* line 108, ../scss/pages/acceuil.scss */
+.pro:hover {
+  transform: scale(1.15);
+}
+
+/* line 116, ../scss/pages/acceuil.scss */
+.colorpro {
+  color: yellow;
+}
+
+/* line 121, ../scss/pages/acceuil.scss */
+ul {
+  display: inline-block;
+}
+
+/* line 123, ../scss/pages/acceuil.scss */
+li {
+  display: inline-block;
+  animation: prochainement 7s linear infinite;
+  color: #009688;
+}
+
+@keyframes prochainement {
+  /* line 132, ../scss/pages/acceuil.scss */
+  0% {
+    color: yellow;
+  }
+
+  /* line 138, ../scss/pages/acceuil.scss */
+  10% {
+    color: yellow;
+  }
+
+  /* line 143, ../scss/pages/acceuil.scss */
+  20% {
+    color: yellow;
+  }
+
+  /* line 146, ../scss/pages/acceuil.scss */
+  30% {
+    color: yellow;
+  }
+
+  /* line 149, ../scss/pages/acceuil.scss */
+  40% {
+    color: yellow;
+  }
+
+  /* line 152, ../scss/pages/acceuil.scss */
+  50% {
+    color: yellow;
+  }
+
+  /* line 155, ../scss/pages/acceuil.scss */
+  60% {
+    color: #009688;
+  }
+
+  /* line 158, ../scss/pages/acceuil.scss */
+  70% {
+    color: #009688;
+  }
+
+  /* line 161, ../scss/pages/acceuil.scss */
+  80% {
+    color: #009688;
+  }
+
+  /* line 166, ../scss/pages/acceuil.scss */
+  90% {
+    color: #009688;
+  }
+
+  /* line 170, ../scss/pages/acceuil.scss */
+  100% {
+    color: #009688;
+  }
+}
+
+/* line 176, ../scss/pages/acceuil.scss */
+li:nth-child(1) {
+  animation-delay: 3s;
+}
+
+/* line 182, ../scss/pages/acceuil.scss */
+li:nth-child(2) {
+  animation-delay: 4s;
+}
+
+/* line 187, ../scss/pages/acceuil.scss */
+li:nth-child(3) {
+  animation-delay: 5s;
+}
+
+/* line 192, ../scss/pages/acceuil.scss */
+li:nth-child(4) {
+  animation-delay: 6s;
+}
+
+/* line 1, ../scss/base/base.scss */
+body {
+  width: 100%;
+  margin: 0;
+}

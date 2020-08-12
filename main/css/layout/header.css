@@ -1,0 +1,13 @@
+/* line 1, ../../scss/layout/header.scss */
+header {
+  background-color: #009688;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 30px;
+}
+/* line 7, ../../scss/layout/header.scss */
+header h1 {
+  color: yellow;
+  text-align: center;
+}
