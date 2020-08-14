@@ -99,3 +99,80 @@ body {
   width: 100%;
   margin: 0;
 }
+
+/* line 1, ../scss/pages/chic.scss */
+h3 {
+  font-family: Snell Roundhand;
+  font-size: 24px;
+  width: 100%;
+  color: #F7BE81;
+  text-align: center;
+  padding-top: 3%;
+}
+
+/* line 13, ../scss/pages/chic.scss */
+main {
+  width: 100%;
+}
+
+/* line 19, ../scss/pages/chic.scss */
+h2 {
+  text-align: center;
+  width: 100%;
+  color: #F7BE81;
+  font-family: Snell Roundhand;
+  font-size: 26px;
+}
+
+/* line 27, ../scss/pages/chic.scss */
+ul {
+  font-family: Snell Roundhand;
+  font-size: 20px;
+  padding: 0;
+  color: #F7BE81;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 38, ../scss/pages/chic.scss */
+li {
+  display: flex;
+  padding-top: 5%;
+}
+
+/* line 44, ../scss/pages/chic.scss */
+.élement {
+  width: 90%;
+}
+
+/* line 48, ../scss/pages/chic.scss */
+.élement2 {
+  width: 10%;
+}
+
+/* line 51, ../scss/pages/chic.scss */
+.élement3 {
+  width: 100%;
+}
+
+/* line 54, ../scss/pages/chic.scss */
+#conteneur {
+  background-color: #FAFAFA;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid gray;
+  padding: 10%;
+}
+
+/* line 70, ../scss/pages/chic.scss */
+.traitflex {
+  display: flex;
+}
+
+/* line 75, ../scss/pages/chic.scss */
+a:link {
+  text-decoration: none;
+}

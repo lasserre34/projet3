@@ -1,0 +1,71 @@
+/* line 1, ../../scss/pages/palette.scss */
+h3 {
+  font-family: Gloria Hallelujah;
+  font-size: 24px;
+  width: 100%;
+  color: #2EFE2E;
+  text-align: center;
+  padding-top: 3%;
+}
+
+/* line 13, ../../scss/pages/palette.scss */
+main {
+  width: 100%;
+}
+
+/* line 19, ../../scss/pages/palette.scss */
+h2 {
+  text-align: center;
+  color: #2EFE2E;
+  width: 100%;
+  font-family: Gloria Hallelujah;
+  font-size: 26px;
+}
+
+/* line 27, ../../scss/pages/palette.scss */
+ul {
+  font-family: Gloria Hallelujah;
+  font-size: 20px;
+  padding: 0;
+  color: #2EFE2E;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 38, ../../scss/pages/palette.scss */
+li {
+  display: flex;
+  padding-top: 5%;
+}
+
+/* line 44, ../../scss/pages/palette.scss */
+.élement {
+  width: 90%;
+}
+
+/* line 48, ../../scss/pages/palette.scss */
+.élement2 {
+  width: 10%;
+}
+
+/* line 54, ../../scss/pages/palette.scss */
+#conteneur {
+  background-color: #FAFAFA;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid gray;
+  padding: 10%;
+}
+
+/* line 70, ../../scss/pages/palette.scss */
+.traitflex {
+  display: flex;
+}
+
+/* line 75, ../../scss/pages/palette.scss */
+a:link {
+  text-decoration: none;
+}

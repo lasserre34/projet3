@@ -1,51 +1,64 @@
 /* line 6, ../../scss/pages/notess.scss */
 h3 {
-  display: table;
-  white-space: nowrap;
+  font-family: Yellowtail;
+  font-size: 24px;
+  width: 100%;
   text-align: center;
+  padding-top: 3%;
 }
 
 /* line 14, ../../scss/pages/notess.scss */
-h3:before, h3:after {
-  display: table-cell;
-  width: 50%;
-  background: repeat-x left center;
-}
-
-/* line 20, ../../scss/pages/notess.scss */
 .fa-music {
   color: purple;
   font-size: 50px;
 }
 
-/* line 25, ../../scss/pages/notess.scss */
+/* line 19, ../../scss/pages/notess.scss */
 main {
   width: 100%;
 }
 
-/* line 31, ../../scss/pages/notess.scss */
+/* line 25, ../../scss/pages/notess.scss */
 h2 {
   text-align: center;
   width: 100%;
+  font-family: Yellowtail;
+  font-size: 26px;
 }
 
-/* line 36, ../../scss/pages/notess.scss */
+/* line 32, ../../scss/pages/notess.scss */
 ul {
+  font-family: Yellowtail;
+  font-size: 20px;
   padding: 0;
   text-decoration: none;
   display: flex;
   justify-content: space-around;
-  width: 100%;
   flex-wrap: wrap;
 }
 
-/* line 45, ../../scss/pages/notess.scss */
+/* line 42, ../../scss/pages/notess.scss */
 li {
   display: flex;
   padding-top: 5%;
 }
 
-/* line 54, ../../scss/pages/notess.scss */
+/* line 48, ../../scss/pages/notess.scss */
+.élement {
+  width: 90%;
+}
+
+/* line 52, ../../scss/pages/notess.scss */
+.élement2 {
+  width: 10%;
+}
+
+/* line 55, ../../scss/pages/notess.scss */
+.élement3 {
+  width: 100%;
+}
+
+/* line 58, ../../scss/pages/notess.scss */
 #conteneur {
   background-color: #ffcdd2;
   margin-bottom: 5%;
@@ -55,30 +68,27 @@ li {
   padding: 10%;
 }
 
-/* line 63, ../../scss/pages/notess.scss */
+/* line 68, ../../scss/pages/notess.scss */
 .notehaut {
   text-align: center;
   width: 100%;
 }
 
-/* line 68, ../../scss/pages/notess.scss */
+/* line 73, ../../scss/pages/notess.scss */
 .lanote {
+  font-family: Yellowtail;
+  font-size: 20px;
   padding: 5%;
   text-align: center;
   width: 100%;
 }
 
-/* line 76, ../../scss/pages/notess.scss */
-.élement {
-  width: 90%;
-}
-
-/* line 80, ../../scss/pages/notess.scss */
+/* line 85, ../../scss/pages/notess.scss */
 .traitflex {
   display: flex;
 }
 
-/* line 85, ../../scss/pages/notess.scss */
+/* line 90, ../../scss/pages/notess.scss */
 a:link {
   text-decoration: none;
 }

@@ -99,3 +99,75 @@ body {
   width: 100%;
   margin: 0;
 }
+
+/* line 1, ../scss/pages/delice.scss */
+h3 {
+  font-family: Cedarville Cursive;
+  font-size: 24px;
+  width: 100%;
+  color: #03a9f4;
+  text-align: center;
+  padding-top: 3%;
+}
+
+/* line 13, ../scss/pages/delice.scss */
+main {
+  width: 100%;
+}
+
+/* line 19, ../scss/pages/delice.scss */
+h2 {
+  text-align: center;
+  color: #03a9f4;
+  width: 100%;
+  font-family: Cedarville Cursive;
+  font-size: 26px;
+}
+
+/* line 27, ../scss/pages/delice.scss */
+ul {
+  font-family: Cedarville Cursive;
+  font-size: 20px;
+  padding: 0;
+  color: #03a9f4;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 38, ../scss/pages/delice.scss */
+li {
+  display: flex;
+  padding-top: 5%;
+}
+
+/* line 44, ../scss/pages/delice.scss */
+.élement {
+  width: 90%;
+}
+
+/* line 48, ../scss/pages/delice.scss */
+.élement2 {
+  width: 10%;
+}
+
+/* line 54, ../scss/pages/delice.scss */
+#conteneur {
+  background-color: #FAFAFA;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid gray;
+  padding: 10%;
+}
+
+/* line 70, ../scss/pages/delice.scss */
+.traitflex {
+  display: flex;
+}
+
+/* line 75, ../scss/pages/delice.scss */
+a:link {
+  text-decoration: none;
+}

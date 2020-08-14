@@ -15,7 +15,7 @@
 }
  
 .lanote{
-    @include menu(#ffcdd2 , Apple chancery);
+    @include menu(#ffcdd2 , Yellowtail);
 
 
 }
@@ -33,30 +33,26 @@
 
 }
    
-    h2{
-        background: -webkit-linear-gradient(#3F51B5, #03A9F4, #40C4FF );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    }
+  
   
 
 
 
 .ledelice{ 
-    @include menu(#FAFAFA , Snell Roundhand) ;
-   
+    @include menu(#FAFAFA ,  Cedarville Cursive ) ;
    
   
 
 }
+
     
    
 
 
 
 .lapalette{
-    @include menu(#FAFAFA , Snell Roundhand) ; 
-  
+    @include menu(#FAFAFA , Gloria Hallelujah ) ; 
+
 
   
      
@@ -66,13 +62,52 @@
     
 
 
-.menu{
+.menu1 {
+    color:black;
     width:100%;
     padding-top:50%;
     padding-bottom:50%;
     transform: scale(1) ;
     &:hover{
         transform: scale(1.20);
+        opacity: 0.5;
+    }
+}
+
+
+.menu2 {
+    color:#F7BE81;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    transform: scale(1) ;
+    &:hover{
+        transform: scale(1.20);
+        opacity: 0.5;
+    }
+}
+
+.menu3 {
+    color:#03a9f4   ;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    transform: scale(1) ;
+    &:hover{
+        transform: scale(1.20);
+        opacity: 0.5;
+    }
+}
+
+.menu4 {
+    color:#2EFE2E;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    transform: scale(1) ;
+    &:hover{
+        transform: scale(1.20);
+        opacity: 0.5;
     }
 }
 
