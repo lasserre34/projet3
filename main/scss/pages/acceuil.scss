@@ -76,7 +76,10 @@
 
 
 .menu2 {
-    color:#F7BE81;
+    background: -webkit-gradient(  linear, left top, right top, from( #DF7401), to(#7401DF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     width:100%;
     padding-top:50%;
     padding-bottom:50%;
