@@ -3,19 +3,53 @@ h3{font-family:Snell Roundhand ;
     width:100%;
     text-align: center;
     padding-top:3%;
+  
 }
 
+
+    .soulignementtitre{
+        background: linear-gradient(to top,  ( #DF7401 ) 0%, (#DF7401 ) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+        display:inline-block;
+        width:33.3%;
+    &:hover{
+      background-size: 100% 100%; 
+    }
+    }
+
+h3::before{
+    content:"";
+   border-bottom:2px solid;
+    vertical-align: middle;
+    display:inline-block;
+  width:33.3%;
+
+}
+
+
+
+
+h3::after{
+    content:"";
+    vertical-align: middle;
+    border-bottom:2px solid;
+    display:inline-block;
+    width:33.3%;
+}
+
+
+
 .entre{
-    color:#DF7401;
+    color:#d18c3e;
 }
 
 .plat{
 
-    color:#B40486;
+    color:#bc8bb3;
 }
 
 .desert{
-    color: #7401DF;
+    color: #8e72d7;
 }  
 
 main{
@@ -24,15 +58,14 @@ main{
 
 
 
-h2{ text-align:center;
+.titre3{ text-align:center;
     width:100%;
     font-family: Snell Roundhand;
         font-size: 38px;
-    
-    
-    background: -webkit-gradient(  linear, left top, right top, from( #DF7401), to(#7401DF));
+        background: -webkit-gradient(  linear, left top, right top, from(#d18c3e ), to(#8e72d7));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    
     
     }
 
@@ -65,12 +98,12 @@ h2{ text-align:center;
 
     #conteneur{
         
-        background-color: #FAFAFA;
+        background-color:#fff5fe ;
         margin-bottom:5%;
         margin-left:10%;
         margin-right:10%;
         border:2px solid gray;
-        padding:10%;
+        padding:7%;
      
      }
     
@@ -79,9 +112,7 @@ h2{ text-align:center;
      
     
      
-     .traitflex{
-         display:flex;   
-     }
+     
      
      
      a:link{

@@ -1,14 +1,56 @@
 h3{font-family: Cedarville Cursive;
     font-size: 24px;
     width:100%;
-    color:#03a9f4 ;
+
+
+
     text-align: center;
     padding-top:3%;
+   
+
+}
+
+.soulignementtitre{
+    background: linear-gradient(to top,  (#1b46e2 ) 0%, ( #9ccdf9) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+    display:inline-block;
+    width:33.3%;
+    &:hover{
+        background-size: 100% 100%; 
+      }
+}
+
+h3::before{
+    content:"";
+   border-bottom:2px solid #1b46e2 ;
+    vertical-align: middle;
+    display:inline-block;
+  width:33.3%;
+
 }
 
 
 
-  
+
+h3::after{
+    content:"";
+    vertical-align: middle;
+    border-bottom:2px solid #1b46e2;
+    display:inline-block;
+    width:33.3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 main{
     width:100%;
@@ -16,23 +58,27 @@ main{
 
 
 
-h2{ text-align:center;
-    color:#03a9f4 ;
+.titre3{
+    background: -webkit-gradient(  linear, left top, right top, from( #1b46e2), to(	#9ccdf9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     text-align:center;
+
     width:100%;
     font-family:Cedarville Cursive ;
-        font-size: 26px;
+        font-size: 50px;
     
     }
     
     ul{ font-family:Cedarville Cursive ;
         font-size: 20px;
         padding:0;
-        color: #03a9f4 ;
+
      text-decoration:none;
       display:flex;
         justify-content:space-around;
        
-     flex-wrap: wrap;;
+     flex-wrap: wrap;
     
     }
     li{
@@ -53,12 +99,12 @@ h2{ text-align:center;
 
     #conteneur{
         
-        background-color: #FAFAFA;
+        background-color:#f9f9f9, ;
         margin-bottom:5%;
         margin-left:10%;
         margin-right:10%;
         border:2px solid gray;
-        padding:10%;
+        padding:7%;
      
      }
     

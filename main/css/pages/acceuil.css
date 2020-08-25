@@ -11,7 +11,7 @@
   text-align: center;
   width: 33.3%;
   margin-top: 5%;
-  background-color: #ffcdd2;
+  background-color: #fcdfdb;
   font-family: Yellowtail, cursive;
 }
 
@@ -21,7 +21,7 @@
   text-align: center;
   width: 33.3%;
   margin-top: 5%;
-  background-color: #fafafa;
+  background-color: #fff5fe;
   font-family: Snell Roundhand, cursive;
 }
 
@@ -31,7 +31,7 @@
   text-align: center;
   width: 33.3%;
   margin-top: 5%;
-  background-color: #fafafa;
+  background-color: #f9f9f9;
   font-family: Cedarville Cursive, cursive;
 }
 
@@ -41,80 +41,90 @@
   text-align: center;
   width: 33.3%;
   margin-top: 5%;
-  background-color: #fafafa;
+  background-color: #fdfffd;
   font-family: Gloria Hallelujah, cursive;
 }
 
 /* line 65, ../../scss/pages/acceuil.scss */
 .menu1 {
-  color: black;
+  font-size: 25px;
+  color: #42191e;
   width: 100%;
   padding-top: 50%;
   padding-bottom: 50%;
   transform: scale(1);
 }
-/* line 71, ../../scss/pages/acceuil.scss */
+/* line 72, ../../scss/pages/acceuil.scss */
 .menu1:hover {
   transform: scale(1.2);
   opacity: 0.5;
 }
 
-/* line 78, ../../scss/pages/acceuil.scss */
+/* line 79, ../../scss/pages/acceuil.scss */
 .menu2 {
-  background: -webkit-gradient(linear, left top, right top, from(#df7401), to(#7401df));
+  background: -webkit-gradient(linear, left top, right top, from(#dfa272), to(#9460fb));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 22px;
   width: 100%;
   padding-top: 50%;
   padding-bottom: 50%;
   transform: scale(1);
 }
-/* line 87, ../../scss/pages/acceuil.scss */
+/* line 89, ../../scss/pages/acceuil.scss */
 .menu2:hover {
   transform: scale(1.2);
   opacity: 0.5;
 }
 
-/* line 93, ../../scss/pages/acceuil.scss */
+/* line 95, ../../scss/pages/acceuil.scss */
 .menu3 {
-  color: #03a9f4;
+  background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#9ccdf9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
   width: 100%;
   padding-top: 50%;
   padding-bottom: 50%;
   transform: scale(1);
 }
-/* line 99, ../../scss/pages/acceuil.scss */
+/* line 104, ../../scss/pages/acceuil.scss */
 .menu3:hover {
   transform: scale(1.2);
   opacity: 0.5;
 }
 
-/* line 105, ../../scss/pages/acceuil.scss */
+/* line 110, ../../scss/pages/acceuil.scss */
 .menu4 {
-  color: #2EFE2E;
+  background: -webkit-gradient(linear, left top, right top, from(#71b565), to(#d4ffaa));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
   width: 100%;
   padding-top: 50%;
   padding-bottom: 50%;
   transform: scale(1);
 }
-/* line 111, ../../scss/pages/acceuil.scss */
+/* line 118, ../../scss/pages/acceuil.scss */
 .menu4:hover {
   transform: scale(1.2);
   opacity: 0.5;
 }
 
-/* line 117, ../../scss/pages/acceuil.scss */
+/* line 124, ../../scss/pages/acceuil.scss */
 .fa-music {
   font-size: 50px;
-  color: purple;
+  background: -webkit-gradient(linear, left top, right top, from(#f05560), to(#f89f82));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* line 124, ../../scss/pages/acceuil.scss */
+/* line 133, ../../scss/pages/acceuil.scss */
 a:link {
   text-decoration: none;
 }
 
-/* line 136, ../../scss/pages/acceuil.scss */
+/* line 145, ../../scss/pages/acceuil.scss */
 .pro {
   border-radius: 8px;
   margin-top: 2.5%;
@@ -122,103 +132,110 @@ a:link {
   width: 30%;
   font-size: 22px;
   transform: scale(1, 1);
-  background-color: #009688;
+  background-color: #579c87;
 }
-/* line 146, ../../scss/pages/acceuil.scss */
+/* line 155, ../../scss/pages/acceuil.scss */
 .pro:hover {
   transform: scale(1.15);
 }
 
-/* line 154, ../../scss/pages/acceuil.scss */
+/* line 163, ../../scss/pages/acceuil.scss */
 .colorpro {
-  color: yellow;
+  color: #f8c948;
 }
 
-/* line 159, ../../scss/pages/acceuil.scss */
+/* line 168, ../../scss/pages/acceuil.scss */
 ul {
   display: inline-block;
 }
 
-/* line 161, ../../scss/pages/acceuil.scss */
+/* line 170, ../../scss/pages/acceuil.scss */
 li {
   display: inline-block;
   animation: prochainement 7s linear infinite;
-  color: #009688;
+  color: #579c87;
 }
 
 @keyframes prochainement {
-  /* line 170, ../../scss/pages/acceuil.scss */
+  /* line 179, ../../scss/pages/acceuil.scss */
   0% {
-    color: yellow;
+    color: #f8c948;
   }
 
-  /* line 176, ../../scss/pages/acceuil.scss */
+  /* line 185, ../../scss/pages/acceuil.scss */
   10% {
-    color: yellow;
-  }
-
-  /* line 181, ../../scss/pages/acceuil.scss */
-  20% {
-    color: yellow;
-  }
-
-  /* line 184, ../../scss/pages/acceuil.scss */
-  30% {
-    color: yellow;
-  }
-
-  /* line 187, ../../scss/pages/acceuil.scss */
-  40% {
-    color: yellow;
+    color: #f8c948;
   }
 
   /* line 190, ../../scss/pages/acceuil.scss */
-  50% {
-    color: yellow;
+  20% {
+    color: #f8c948;
   }
 
   /* line 193, ../../scss/pages/acceuil.scss */
-  60% {
-    color: #009688;
+  30% {
+    color: #f8c948;
   }
 
   /* line 196, ../../scss/pages/acceuil.scss */
-  70% {
-    color: #009688;
+  40% {
+    color: #f8c948;
   }
 
   /* line 199, ../../scss/pages/acceuil.scss */
-  80% {
-    color: #009688;
+  50% {
+    color: #f8c948;
   }
 
-  /* line 204, ../../scss/pages/acceuil.scss */
-  90% {
-    color: #009688;
+  /* line 202, ../../scss/pages/acceuil.scss */
+  60% {
+    color: #579c87;
+  }
+
+  /* line 205, ../../scss/pages/acceuil.scss */
+  70% {
+    color: #579c87;
   }
 
   /* line 208, ../../scss/pages/acceuil.scss */
+  80% {
+    color: #579c87;
+  }
+
+  /* line 213, ../../scss/pages/acceuil.scss */
+  90% {
+    color: #579c87;
+  }
+
+  /* line 217, ../../scss/pages/acceuil.scss */
   100% {
-    color: #009688;
+    color: #579c87;
   }
 }
 
-/* line 214, ../../scss/pages/acceuil.scss */
+/* line 223, ../../scss/pages/acceuil.scss */
 li:nth-child(1) {
   animation-delay: 3s;
 }
 
-/* line 220, ../../scss/pages/acceuil.scss */
+/* line 229, ../../scss/pages/acceuil.scss */
 li:nth-child(2) {
   animation-delay: 4s;
 }
 
-/* line 225, ../../scss/pages/acceuil.scss */
+/* line 234, ../../scss/pages/acceuil.scss */
 li:nth-child(3) {
   animation-delay: 5s;
 }
 
-/* line 230, ../../scss/pages/acceuil.scss */
+/* line 239, ../../scss/pages/acceuil.scss */
 li:nth-child(4) {
   animation-delay: 6s;
+}
+
+@media screen and (max-width: 739px) {
+  /* line 246, ../../scss/pages/acceuil.scss */
+  #conteneur {
+    display: none;
+  }
 }

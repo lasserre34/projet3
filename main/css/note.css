@@ -1,14 +1,23 @@
 /* line 1, ../scss/layout/header.scss */
 header {
-  background-color: #009688;
+  background-color: #579c87;
   width: 100%;
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: 30px;
+  font-family: 'Oswald', sans-serif;
 }
-/* line 7, ../scss/layout/header.scss */
+/* line 8, ../scss/layout/header.scss */
 header h1 {
-  color: yellow;
+  color: #fdcb46;
+  text-align: center;
+}
+
+/* line 14, ../scss/layout/header.scss */
+.titre2 {
+  color: #42191e;
+  font-family: 'Oswald' sans-serif;
+  font-size: 26px;
   text-align: center;
 }
 
@@ -17,8 +26,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #009688;
-  color: yellow;
+  background-color: #579c87;
   margin-top: 5%;
   padding-left: 2%;
   padding-right: 2%;
@@ -27,10 +35,11 @@ footer {
 
 /* line 13, ../scss/layout/footer.scss */
 .lienfooter {
-  color: yellow;
+  color: #f8c948;
+  font-family: 'Oswald' sans-serif;
 }
 
-/* line 17, ../scss/layout/footer.scss */
+/* line 18, ../scss/layout/footer.scss */
 p:hover {
   animation-name: bouge;
   animation-duration: 1s;
@@ -38,57 +47,57 @@ p:hover {
 }
 
 @keyframes bouge {
-  /* line 28, ../scss/layout/footer.scss */
+  /* line 29, ../scss/layout/footer.scss */
   0% {
     transform: translate(2px, 2px);
   }
 
-  /* line 29, ../scss/layout/footer.scss */
+  /* line 30, ../scss/layout/footer.scss */
   10% {
     transform: translate(-2px, -2px);
   }
 
-  /* line 30, ../scss/layout/footer.scss */
+  /* line 31, ../scss/layout/footer.scss */
   20% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 31, ../scss/layout/footer.scss */
+  /* line 32, ../scss/layout/footer.scss */
   30% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 32, ../scss/layout/footer.scss */
+  /* line 33, ../scss/layout/footer.scss */
   40% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 33, ../scss/layout/footer.scss */
+  /* line 34, ../scss/layout/footer.scss */
   50% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 34, ../scss/layout/footer.scss */
+  /* line 35, ../scss/layout/footer.scss */
   60% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 35, ../scss/layout/footer.scss */
+  /* line 36, ../scss/layout/footer.scss */
   70% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 36, ../scss/layout/footer.scss */
+  /* line 37, ../scss/layout/footer.scss */
   80% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 37, ../scss/layout/footer.scss */
+  /* line 38, ../scss/layout/footer.scss */
   90% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 38, ../scss/layout/footer.scss */
+  /* line 39, ../scss/layout/footer.scss */
   100% {
     -webkit-transform: translate(2px, 2px);
   }
@@ -100,29 +109,61 @@ h3 {
   font-size: 24px;
   width: 100%;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 4%;
 }
 
-/* line 14, ../scss/pages/notess.scss */
+/* line 18, ../scss/pages/notess.scss */
+.soulignementtitre {
+  background: linear-gradient(to top, #42191e 0%, #42191e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size .5s;
+  display: inline-block;
+  width: 33.3%;
+}
+/* line 22, ../scss/pages/notess.scss */
+.soulignementtitre:hover {
+  background-size: 100% 100%;
+}
+
+/* line 27, ../scss/pages/notess.scss */
+h3::before {
+  content: "";
+  border-bottom: 2px solid #42191e;
+  vertical-align: middle;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 39, ../scss/pages/notess.scss */
+h3::after {
+  content: "";
+  vertical-align: middle;
+  border-bottom: 2px solid #42191e;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 49, ../scss/pages/notess.scss */
 .fa-music {
-  color: purple;
+  background: -webkit-gradient(linear, left top, right top, from(#f05560), to(#f89f82));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 50px;
 }
 
-/* line 19, ../scss/pages/notess.scss */
+/* line 58, ../scss/pages/notess.scss */
 main {
   width: 100%;
 }
 
-/* line 25, ../scss/pages/notess.scss */
-h2 {
+/* line 64, ../scss/pages/notess.scss */
+.titre3 {
   text-align: center;
   width: 100%;
   font-family: Yellowtail;
   font-size: 26px;
 }
 
-/* line 32, ../scss/pages/notess.scss */
+/* line 72, ../scss/pages/notess.scss */
 ul {
   font-family: Yellowtail;
   font-size: 20px;
@@ -133,44 +174,45 @@ ul {
   flex-wrap: wrap;
 }
 
-/* line 42, ../scss/pages/notess.scss */
+/* line 82, ../scss/pages/notess.scss */
 li {
   display: flex;
   padding-top: 5%;
 }
 
-/* line 48, ../scss/pages/notess.scss */
+/* line 88, ../scss/pages/notess.scss */
 .élement {
   width: 90%;
 }
 
-/* line 52, ../scss/pages/notess.scss */
+/* line 92, ../scss/pages/notess.scss */
 .élement2 {
   width: 10%;
 }
 
-/* line 55, ../scss/pages/notess.scss */
+/* line 95, ../scss/pages/notess.scss */
 .élement3 {
   width: 100%;
 }
 
-/* line 58, ../scss/pages/notess.scss */
+/* line 98, ../scss/pages/notess.scss */
 #conteneur {
-  background-color: #ffcdd2;
+  color: #42191e;
+  background-color: #fcdfdb;
   margin-bottom: 5%;
   margin-left: 10%;
   margin-right: 10%;
   border: 2px solid gray;
-  padding: 10%;
+  padding: 7%;
 }
 
-/* line 68, ../scss/pages/notess.scss */
+/* line 108, ../scss/pages/notess.scss */
 .notehaut {
   text-align: center;
   width: 100%;
 }
 
-/* line 73, ../scss/pages/notess.scss */
+/* line 113, ../scss/pages/notess.scss */
 .lanote {
   font-family: Yellowtail;
   font-size: 20px;
@@ -179,12 +221,7 @@ li {
   width: 100%;
 }
 
-/* line 85, ../scss/pages/notess.scss */
-.traitflex {
-  display: flex;
-}
-
-/* line 90, ../scss/pages/notess.scss */
+/* line 128, ../scss/pages/notess.scss */
 a:link {
   text-decoration: none;
 }

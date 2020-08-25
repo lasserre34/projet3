@@ -1,11 +1,42 @@
 h3{font-family: Gloria Hallelujah;
     font-size: 24px;
-    width:100%;
-    color:#2EFE2E ;
+    
     text-align: center;
     padding-top:3%;
+    
+
 }
 
+.soulignementtitre{
+    background: linear-gradient(to top,  ( #2EFE2E) 0%, ( #2EFE2E) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+    display:inline-block;
+    width:33.3%;
+    &:hover{
+        background-size: 100% 100%; 
+      }
+}
+
+h3::before{
+    content:"";
+
+   border-bottom:2px solid #2EFE2E ;
+    vertical-align: middle;
+    display:inline-block;
+  width:33.3%;
+
+}
+
+
+
+
+h3::after{
+    content:"";
+    vertical-align: middle;
+    border-bottom:2px solid #2EFE2E;
+    display:inline-block;
+    width:33.3%;
+}
 
 
   
@@ -16,18 +47,23 @@ main{
 
 
 
-h2{ text-align:center;
-    color: #2EFE2E;
+
+.titre3{  background: -webkit-gradient(  linear, left top, right top, from( #71b565), to(#d4ffaa));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center;
     width:100%;
     font-family:Gloria Hallelujah ;
-        font-size: 26px;
+        font-size: 50px;
     
     }
+
+
+
     
     ul{ font-family:Gloria Hallelujah ;
-        font-size: 20px;
+        font-size: 16px;
         padding:0;
-        color: #2EFE2E ;
      text-decoration:none;
       display:flex;
         justify-content:space-around;
@@ -53,12 +89,12 @@ h2{ text-align:center;
 
     #conteneur{
         
-        background-color: #FAFAFA;
+        background-color:#fdfffd ;
         margin-bottom:5%;
         margin-left:10%;
         margin-right:10%;
         border:2px solid gray;
-        padding:10%;
+        padding:7%;
      
      }
     
@@ -67,9 +103,7 @@ h2{ text-align:center;
      
     
      
-     .traitflex{
-         display:flex;   
-     }
+    
      
      
      a:link{

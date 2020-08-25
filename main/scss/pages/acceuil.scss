@@ -15,7 +15,7 @@
 }
  
 .lanote{
-    @include menu(#ffcdd2 , Yellowtail);
+    @include menu(#fcdfdb , Yellowtail);
 
 
 }
@@ -26,7 +26,7 @@
 
 
 .lechic{
-    @include menu(#FAFAFA , Snell Roundhand) ;
+    @include menu(#fff5fe , Snell Roundhand) ;
    
   
 
@@ -39,7 +39,7 @@
 
 
 .ledelice{ 
-    @include menu(#FAFAFA ,  Cedarville Cursive ) ;
+    @include menu( #f9f9f9,  Cedarville Cursive ) ;
    
   
 
@@ -51,7 +51,7 @@
 
 
 .lapalette{
-    @include menu(#FAFAFA , Gloria Hallelujah ) ; 
+    @include menu(	#fdfffd , Gloria Hallelujah ) ; 
 
 
   
@@ -63,7 +63,8 @@
 
 
 .menu1 {
-    color:black;
+    font-size:25px;
+    color:	#42191e;
     width:100%;
     padding-top:50%;
     padding-bottom:50%;
@@ -76,9 +77,10 @@
 
 
 .menu2 {
-    background: -webkit-gradient(  linear, left top, right top, from( #DF7401), to(#7401DF));
+    background: -webkit-gradient(  linear, left top, right top, from( 	#dfa272), to(#9460fb));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size:22px;
 
     width:100%;
     padding-top:50%;
@@ -91,7 +93,10 @@
 }
 
 .menu3 {
-    color:#03a9f4   ;
+    background: -webkit-gradient(  linear, left top, right top, from( #1b46e2), to(	#9ccdf9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+font-size:25px;
     width:100%;
     padding-top:50%;
     padding-bottom:50%;
@@ -102,8 +107,10 @@
     }
 }
 
-.menu4 {
-    color:#2EFE2E;
+.menu4 { background: -webkit-gradient(  linear, left top, right top, from( #71b565), to(#d4ffaa));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:25px;
     width:100%;
     padding-top:50%;
     padding-bottom:50%;
@@ -116,7 +123,9 @@
 
 .fa-music{
     font-size: 50px;
-    color:purple;
+    background: -webkit-gradient(  linear, left top, right top, from( #f05560), to(#f89f82));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -141,7 +150,7 @@ width: 30%;
 font-size: 22px;
 transform:scale(1,1);
 
-    background-color:#009688;
+    background-color:#579c87;
     
     &:hover{
         transform:scale(1.15);
@@ -152,7 +161,7 @@ transform:scale(1,1);
 }
 
 .colorpro{
-    color:yellow;
+    color:#f8c948;
 }
 
 
@@ -161,52 +170,52 @@ ul{ display:inline-block;}
   li {
     display:inline-block;
     animation: prochainement 7s linear infinite ;
-    color:#009688
+    color:#579c87;
 }
 
 
 
 @keyframes prochainement{
     0%{
-        color:yellow;
+        color:#f8c948;
        
 
     }
 
     10%{
-        color:yellow;
+        color:#f8c948;
         
     
     }
     20%{
-        color:yellow;
+        color:#f8c948;
     }
     30%{
-        color:yellow;
+        color:#f8c948;
     }
     40%{
-        color:yellow;
+        color:#f8c948;
     }
     50%{
-        color:yellow;
+        color:#f8c948;
     }
     60%{
-        color:#009688;
+        color:#579c87;
     }
     70%{
-        color:#009688;
+        color:#579c87;
     }
     80%{
-        color:#009688;
+        color:#579c87;
     }
     
     
     90%{
-        color:#009688;
+        color:#579c87;
     }
 
     100%{
-        color:#009688;
+        color:#579c87;
     }
 
 }
@@ -232,4 +241,19 @@ li:nth-child(4){
     
     ;
 }
+
+@media screen  and (max-width:739px){
+#conteneur{
+
+    display:none;
+
+}   
+
+    
+
+
+}
+
+
+
 

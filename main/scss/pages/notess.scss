@@ -7,13 +7,52 @@ h3{font-family: Yellowtail;
     font-size: 24px;
     width:100%;
     text-align: center;
-    padding-top:3%;
+    padding-top:4%;
+    
+
+
 }
 
 
+.soulignementtitre
+{background: linear-gradient(to top,  (#42191e ) 0%, ( #42191e) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+    display:inline-block;
+    width:33.3%;
+&:hover{
+  background-size: 100% 100%; 
+}
+}
+
+h3::before{
+    content:"";
+   border-bottom:2px solid #42191e;
+    vertical-align: middle;
+    display:inline-block;
+  width:33.3%;
+
+}
+
+
+
+
+h3::after{
+    content:"";
+    vertical-align: middle;
+    border-bottom:2px solid #42191e;
+    display:inline-block;
+    width:33.3%;
+}
+
+
+
 .fa-music{
-    color:purple;
-   font-size: 50px;
+    background: -webkit-gradient(  linear, left top, right top, from( #f05560), to(#f89f82));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+
+   
   
 }
 main{
@@ -22,10 +61,11 @@ main{
 
 
 
-h2{ text-align:center;
+.titre3{ text-align:center;
     width:100%;
     font-family: Yellowtail;
         font-size: 26px;
+    
     
     }
     
@@ -56,13 +96,13 @@ h2{ text-align:center;
 
 
     #conteneur{
-        
-        background-color: #ffcdd2;
+        color:#42191e;
+        background-color:#fcdfdb ;
         margin-bottom:5%;
         margin-left:10%;
         margin-right:10%;
         border:2px solid gray;
-        padding:10%;
+        padding:7%;
      
      }
      .notehaut{
@@ -82,9 +122,7 @@ h2{ text-align:center;
      
     
      
-     .traitflex{
-         display:flex;   
-     }
+    
      
      
      a:link{

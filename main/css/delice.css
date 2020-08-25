@@ -1,14 +1,23 @@
 /* line 1, ../scss/layout/header.scss */
 header {
-  background-color: #009688;
+  background-color: #579c87;
   width: 100%;
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: 30px;
+  font-family: 'Oswald', sans-serif;
 }
-/* line 7, ../scss/layout/header.scss */
+/* line 8, ../scss/layout/header.scss */
 header h1 {
-  color: yellow;
+  color: #fdcb46;
+  text-align: center;
+}
+
+/* line 14, ../scss/layout/header.scss */
+.titre2 {
+  color: #42191e;
+  font-family: 'Oswald' sans-serif;
+  font-size: 26px;
   text-align: center;
 }
 
@@ -17,8 +26,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #009688;
-  color: yellow;
+  background-color: #579c87;
   margin-top: 5%;
   padding-left: 2%;
   padding-right: 2%;
@@ -27,10 +35,11 @@ footer {
 
 /* line 13, ../scss/layout/footer.scss */
 .lienfooter {
-  color: yellow;
+  color: #f8c948;
+  font-family: 'Oswald' sans-serif;
 }
 
-/* line 17, ../scss/layout/footer.scss */
+/* line 18, ../scss/layout/footer.scss */
 p:hover {
   animation-name: bouge;
   animation-duration: 1s;
@@ -38,57 +47,57 @@ p:hover {
 }
 
 @keyframes bouge {
-  /* line 28, ../scss/layout/footer.scss */
+  /* line 29, ../scss/layout/footer.scss */
   0% {
     transform: translate(2px, 2px);
   }
 
-  /* line 29, ../scss/layout/footer.scss */
+  /* line 30, ../scss/layout/footer.scss */
   10% {
     transform: translate(-2px, -2px);
   }
 
-  /* line 30, ../scss/layout/footer.scss */
+  /* line 31, ../scss/layout/footer.scss */
   20% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 31, ../scss/layout/footer.scss */
+  /* line 32, ../scss/layout/footer.scss */
   30% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 32, ../scss/layout/footer.scss */
+  /* line 33, ../scss/layout/footer.scss */
   40% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 33, ../scss/layout/footer.scss */
+  /* line 34, ../scss/layout/footer.scss */
   50% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 34, ../scss/layout/footer.scss */
+  /* line 35, ../scss/layout/footer.scss */
   60% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 35, ../scss/layout/footer.scss */
+  /* line 36, ../scss/layout/footer.scss */
   70% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 36, ../scss/layout/footer.scss */
+  /* line 37, ../scss/layout/footer.scss */
   80% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 37, ../scss/layout/footer.scss */
+  /* line 38, ../scss/layout/footer.scss */
   90% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 38, ../scss/layout/footer.scss */
+  /* line 39, ../scss/layout/footer.scss */
   100% {
     -webkit-transform: translate(2px, 2px);
   }
@@ -105,69 +114,99 @@ h3 {
   font-family: Cedarville Cursive;
   font-size: 24px;
   width: 100%;
-  color: #03a9f4;
   text-align: center;
   padding-top: 3%;
 }
 
 /* line 13, ../scss/pages/delice.scss */
+.soulignementtitre {
+  background: linear-gradient(to top, #1b46e2 0%, #9ccdf9 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size .5s;
+  display: inline-block;
+  width: 33.3%;
+}
+/* line 18, ../scss/pages/delice.scss */
+.soulignementtitre:hover {
+  background-size: 100% 100%;
+}
+
+/* line 23, ../scss/pages/delice.scss */
+h3::before {
+  content: "";
+  border-bottom: 2px solid #1b46e2;
+  vertical-align: middle;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 35, ../scss/pages/delice.scss */
+h3::after {
+  content: "";
+  vertical-align: middle;
+  border-bottom: 2px solid #1b46e2;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 55, ../scss/pages/delice.scss */
 main {
   width: 100%;
 }
 
-/* line 19, ../scss/pages/delice.scss */
-h2 {
+/* line 61, ../scss/pages/delice.scss */
+.titre3 {
+  background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#9ccdf9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
-  color: #03a9f4;
   width: 100%;
   font-family: Cedarville Cursive;
-  font-size: 26px;
+  font-size: 50px;
 }
 
-/* line 27, ../scss/pages/delice.scss */
+/* line 73, ../scss/pages/delice.scss */
 ul {
   font-family: Cedarville Cursive;
   font-size: 20px;
   padding: 0;
-  color: #03a9f4;
   text-decoration: none;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-/* line 38, ../scss/pages/delice.scss */
+/* line 84, ../scss/pages/delice.scss */
 li {
   display: flex;
   padding-top: 5%;
 }
 
-/* line 44, ../scss/pages/delice.scss */
+/* line 90, ../scss/pages/delice.scss */
 .élement {
   width: 90%;
 }
 
-/* line 48, ../scss/pages/delice.scss */
+/* line 94, ../scss/pages/delice.scss */
 .élement2 {
   width: 10%;
 }
 
-/* line 54, ../scss/pages/delice.scss */
+/* line 100, ../scss/pages/delice.scss */
 #conteneur {
-  background-color: #FAFAFA;
+  background-color: #f9f9f9,;
   margin-bottom: 5%;
   margin-left: 10%;
   margin-right: 10%;
   border: 2px solid gray;
-  padding: 10%;
+  padding: 7%;
 }
 
-/* line 70, ../scss/pages/delice.scss */
+/* line 116, ../scss/pages/delice.scss */
 .traitflex {
   display: flex;
 }
 
-/* line 75, ../scss/pages/delice.scss */
+/* line 121, ../scss/pages/delice.scss */
 a:link {
   text-decoration: none;
 }

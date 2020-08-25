@@ -109,119 +109,12 @@ body {
   margin: 0;
 }
 
-/* line 1, ../scss/pages/chic.scss */
-h3 {
-  font-family: Snell Roundhand;
-  font-size: 24px;
-  width: 100%;
+/* line 4, ../scss/pages/mention.scss */
+h2 {
   text-align: center;
-  padding-top: 3%;
 }
 
-/* line 10, ../scss/pages/chic.scss */
-.soulignementtitre {
-  background: linear-gradient(to top, #df7401 0%, #df7401 10%, transparent 10.01%) no-repeat left bottom/0 100%;
-  transition: background-size .5s;
-  display: inline-block;
-  width: 33.3%;
-}
-/* line 15, ../scss/pages/chic.scss */
-.soulignementtitre:hover {
-  background-size: 100% 100%;
-}
-
-/* line 20, ../scss/pages/chic.scss */
-h3::before {
-  content: "";
-  border-bottom: 2px solid;
-  vertical-align: middle;
-  display: inline-block;
-  width: 33.3%;
-}
-
-/* line 32, ../scss/pages/chic.scss */
-h3::after {
-  content: "";
-  vertical-align: middle;
-  border-bottom: 2px solid;
-  display: inline-block;
-  width: 33.3%;
-}
-
-/* line 42, ../scss/pages/chic.scss */
-.entre {
-  color: #d18c3e;
-}
-
-/* line 46, ../scss/pages/chic.scss */
-.plat {
-  color: #bc8bb3;
-}
-
-/* line 51, ../scss/pages/chic.scss */
-.desert {
-  color: #8e72d7;
-}
-
-/* line 55, ../scss/pages/chic.scss */
-main {
-  width: 100%;
-}
-
-/* line 61, ../scss/pages/chic.scss */
-.titre3 {
-  text-align: center;
-  width: 100%;
-  font-family: Snell Roundhand;
-  font-size: 38px;
-  background: -webkit-gradient(linear, left top, right top, from(#d18c3e), to(#8e72d7));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* line 73, ../scss/pages/chic.scss */
-ul {
-  font-family: Snell Roundhand;
-  font-size: 20px;
-  padding: 0;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-/* line 83, ../scss/pages/chic.scss */
-li {
-  display: flex;
-  padding-top: 5%;
-}
-
-/* line 89, ../scss/pages/chic.scss */
-.élement {
-  width: 90%;
-}
-
-/* line 93, ../scss/pages/chic.scss */
-.élement2 {
-  width: 10%;
-}
-
-/* line 96, ../scss/pages/chic.scss */
-.élement3 {
-  width: 100%;
-}
-
-/* line 99, ../scss/pages/chic.scss */
-#conteneur {
-  background-color: #fff5fe;
-  margin-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  border: 2px solid gray;
-  padding: 7%;
-}
-
-/* line 118, ../scss/pages/chic.scss */
-a:link {
+/* line 9, ../scss/pages/mention.scss */
+.lienfooter {
   text-decoration: none;
 }
