@@ -99,3 +99,25 @@ li {
 a:link {
   text-decoration: none;
 }
+
+@media screen and (max-width: 739px) {
+  /* line 127, ../../scss/pages/delice.scss */
+  main {
+    margin-bottom: 25%;
+  }
+
+  /* line 130, ../../scss/pages/delice.scss */
+  ul {
+    display: block;
+  }
+
+  /* line 134, ../../scss/pages/delice.scss */
+  h3::before {
+    display: none;
+  }
+
+  /* line 137, ../../scss/pages/delice.scss */
+  h3:after {
+    display: none;
+  }
+}

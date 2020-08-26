@@ -149,7 +149,7 @@ margin-left: 35%;
 width: 30%;
 font-size: 22px;
 transform:scale(1,1);
-
+margin-bottom:10%;
     background-color:#579c87;
     
     &:hover{
@@ -245,12 +245,40 @@ li:nth-child(4){
 @media screen  and (max-width:739px){
 #conteneur{
 
-    display:none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
 
 }   
 
-    
 
+    .lanote{
+        width:70%;
+    }
+
+.lechic{
+    width:70%;
+    margin-top:5%;
+}
+
+    
+.lapalette{
+    width:70%;
+    margin-top:5%;
+}
+
+.ledelice{
+    width:70%;
+    margin-top:5%;
+}
+
+.pro{
+    width:45%;
+    margin-bottom:25%;
+    margin-left:25%;
+}
 
 }
 

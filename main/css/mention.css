@@ -23,23 +23,33 @@ header h1 {
 
 /* line 1, ../scss/layout/footer.scss */
 footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #579c87;
-  margin-top: 5%;
-  padding-left: 2%;
-  padding-right: 2%;
   font-size: 20px;
+  width: 100%;
 }
 
-/* line 13, ../scss/layout/footer.scss */
+/* line 15, ../scss/layout/footer.scss */
+.mention {
+  padding-left: 2%;
+}
+
+/* line 18, ../scss/layout/footer.scss */
+.mail {
+  padding-right: 2%;
+}
+
+/* line 22, ../scss/layout/footer.scss */
 .lienfooter {
   color: #f8c948;
   font-family: 'Oswald' sans-serif;
 }
 
-/* line 18, ../scss/layout/footer.scss */
+/* line 27, ../scss/layout/footer.scss */
 p:hover {
   animation-name: bouge;
   animation-duration: 1s;
@@ -47,57 +57,57 @@ p:hover {
 }
 
 @keyframes bouge {
-  /* line 29, ../scss/layout/footer.scss */
+  /* line 38, ../scss/layout/footer.scss */
   0% {
     transform: translate(2px, 2px);
   }
 
-  /* line 30, ../scss/layout/footer.scss */
+  /* line 39, ../scss/layout/footer.scss */
   10% {
     transform: translate(-2px, -2px);
   }
 
-  /* line 31, ../scss/layout/footer.scss */
+  /* line 40, ../scss/layout/footer.scss */
   20% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 32, ../scss/layout/footer.scss */
+  /* line 41, ../scss/layout/footer.scss */
   30% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 33, ../scss/layout/footer.scss */
+  /* line 42, ../scss/layout/footer.scss */
   40% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 34, ../scss/layout/footer.scss */
+  /* line 43, ../scss/layout/footer.scss */
   50% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 35, ../scss/layout/footer.scss */
+  /* line 44, ../scss/layout/footer.scss */
   60% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 36, ../scss/layout/footer.scss */
+  /* line 45, ../scss/layout/footer.scss */
   70% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 37, ../scss/layout/footer.scss */
+  /* line 46, ../scss/layout/footer.scss */
   80% {
     -webkit-transform: translate(2px, 2px);
   }
 
-  /* line 38, ../scss/layout/footer.scss */
+  /* line 47, ../scss/layout/footer.scss */
   90% {
     -webkit-transform: translate(-2px, -2px);
   }
 
-  /* line 39, ../scss/layout/footer.scss */
+  /* line 48, ../scss/layout/footer.scss */
   100% {
     -webkit-transform: translate(2px, 2px);
   }

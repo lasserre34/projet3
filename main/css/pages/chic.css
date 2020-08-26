@@ -114,3 +114,25 @@ li {
 a:link {
   text-decoration: none;
 }
+
+@media screen and (max-width: 739px) {
+  /* line 124, ../../scss/pages/chic.scss */
+  main {
+    margin-bottom: 25%;
+  }
+
+  /* line 127, ../../scss/pages/chic.scss */
+  ul {
+    display: block;
+  }
+
+  /* line 130, ../../scss/pages/chic.scss */
+  h3:before {
+    display: none;
+  }
+
+  /* line 133, ../../scss/pages/chic.scss */
+  h3:after {
+    display: none;
+  }
+}

@@ -120,3 +120,15 @@ li {
 a:link {
   text-decoration: none;
 }
+
+@media screen and (max-width: 739px) {
+  /* line 133, ../../scss/pages/notess.scss */
+  main {
+    margin-bottom: 25%;
+  }
+
+  /* line 136, ../../scss/pages/notess.scss */
+  ul {
+    display: block;
+  }
+}

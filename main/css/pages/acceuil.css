@@ -132,6 +132,7 @@ a:link {
   width: 30%;
   font-size: 22px;
   transform: scale(1, 1);
+  margin-bottom: 10%;
   background-color: #579c87;
 }
 /* line 155, ../../scss/pages/acceuil.scss */
@@ -236,6 +237,38 @@ li:nth-child(4) {
 @media screen and (max-width: 739px) {
   /* line 246, ../../scss/pages/acceuil.scss */
   #conteneur {
-    display: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* line 257, ../../scss/pages/acceuil.scss */
+  .lanote {
+    width: 70%;
+  }
+
+  /* line 261, ../../scss/pages/acceuil.scss */
+  .lechic {
+    width: 70%;
+    margin-top: 5%;
+  }
+
+  /* line 267, ../../scss/pages/acceuil.scss */
+  .lapalette {
+    width: 70%;
+    margin-top: 5%;
+  }
+
+  /* line 272, ../../scss/pages/acceuil.scss */
+  .ledelice {
+    width: 70%;
+    margin-top: 5%;
+  }
+
+  /* line 277, ../../scss/pages/acceuil.scss */
+  .pro {
+    width: 45%;
+    margin-bottom: 25%;
+    margin-left: 25%;
   }
 }

@@ -1,13 +1,22 @@
 footer{
+    position:fixed;
+    bottom:0;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
     background-color:#579c87;
-    margin-top:5%;
-    padding-left:2%;
-    padding-right:2%;
+
+    
     font-size: 20px;
+    width:100%;
    
+}
+
+.mention{
+    padding-left:2%;
+}
+.mail{
+    padding-right:2%;
 }
 
 .lienfooter{

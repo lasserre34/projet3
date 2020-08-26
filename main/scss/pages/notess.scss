@@ -129,3 +129,14 @@ main{
          text-decoration: none;
      }
      
+     @media screen  and (max-width:739px){
+        main{
+            margin-bottom:25%;
+        }
+        ul{
+            display:block;
+        }
+       }
+
+
+       
