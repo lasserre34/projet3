@@ -1,0 +1,134 @@
+/* line 6, ../../scss/pages/notess.scss */
+h3 {
+  font-family: Yellowtail;
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  padding-top: 4%;
+}
+
+/* line 18, ../../scss/pages/notess.scss */
+.soulignementtitre {
+  background: linear-gradient(to top, #42191e 0%, #42191e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size .5s;
+  display: inline-block;
+  width: 33.3%;
+}
+/* line 22, ../../scss/pages/notess.scss */
+.soulignementtitre:hover {
+  background-size: 100% 100%;
+}
+
+/* line 27, ../../scss/pages/notess.scss */
+h3::before {
+  content: "";
+  border-bottom: 2px solid #42191e;
+  vertical-align: middle;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 39, ../../scss/pages/notess.scss */
+h3::after {
+  content: "";
+  vertical-align: middle;
+  border-bottom: 2px solid #42191e;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 49, ../../scss/pages/notess.scss */
+.fa-music {
+  background: -webkit-gradient(linear, left top, right top, from(#f05560), to(#f89f82));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+
+/* line 58, ../../scss/pages/notess.scss */
+main {
+  width: 100%;
+}
+
+/* line 64, ../../scss/pages/notess.scss */
+.titre3 {
+  text-align: center;
+  width: 100%;
+  font-family: Yellowtail;
+  font-size: 26px;
+}
+
+/* line 72, ../../scss/pages/notess.scss */
+ul {
+  font-family: Yellowtail;
+  font-size: 20px;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 82, ../../scss/pages/notess.scss */
+li {
+  display: flex;
+  padding-top: 5%;
+}
+
+/* line 88, ../../scss/pages/notess.scss */
+.élement {
+  width: 90%;
+}
+
+/* line 92, ../../scss/pages/notess.scss */
+.élement2 {
+  width: 10%;
+}
+
+/* line 95, ../../scss/pages/notess.scss */
+.élement3 {
+  width: 100%;
+}
+
+/* line 98, ../../scss/pages/notess.scss */
+#conteneur {
+  color: #42191e;
+  background-color: #fcdfdb;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid gray;
+  padding: 7%;
+}
+
+/* line 108, ../../scss/pages/notess.scss */
+.notehaut {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 113, ../../scss/pages/notess.scss */
+.lanote {
+  font-family: Yellowtail;
+  font-size: 20px;
+  padding: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 128, ../../scss/pages/notess.scss */
+a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 739px) {
+  /* line 133, ../../scss/pages/notess.scss */
+  main {
+    margin-bottom: 25%;
+  }
+
+  /* line 136, ../../scss/pages/notess.scss */
+  ul {
+    display: block;
+  }
+}

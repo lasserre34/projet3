@@ -1,0 +1,254 @@
+/* line 1, ../scss/layout/header.scss */
+header {
+  background-color: #579c87;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+/* line 8, ../scss/layout/header.scss */
+header h1 {
+  color: #fdcb46;
+  text-align: center;
+}
+
+/* line 14, ../scss/layout/header.scss */
+.titre2 {
+  color: #42191e;
+  font-family: 'Oswald' sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+/* line 1, ../scss/layout/footer.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #579c87;
+  font-size: 20px;
+  width: 100%;
+}
+
+/* line 15, ../scss/layout/footer.scss */
+.mention {
+  padding-left: 2%;
+}
+
+/* line 18, ../scss/layout/footer.scss */
+.mail {
+  padding-right: 2%;
+}
+
+/* line 22, ../scss/layout/footer.scss */
+.lienfooter {
+  color: #f8c948;
+  font-family: 'Oswald' sans-serif;
+}
+
+/* line 27, ../scss/layout/footer.scss */
+p:hover {
+  animation-name: bouge;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bouge {
+  /* line 38, ../scss/layout/footer.scss */
+  0% {
+    transform: translate(2px, 2px);
+  }
+
+  /* line 39, ../scss/layout/footer.scss */
+  10% {
+    transform: translate(-2px, -2px);
+  }
+
+  /* line 40, ../scss/layout/footer.scss */
+  20% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 41, ../scss/layout/footer.scss */
+  30% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 42, ../scss/layout/footer.scss */
+  40% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 43, ../scss/layout/footer.scss */
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 44, ../scss/layout/footer.scss */
+  60% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 45, ../scss/layout/footer.scss */
+  70% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 46, ../scss/layout/footer.scss */
+  80% {
+    -webkit-transform: translate(2px, 2px);
+  }
+
+  /* line 47, ../scss/layout/footer.scss */
+  90% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+
+  /* line 48, ../scss/layout/footer.scss */
+  100% {
+    -webkit-transform: translate(2px, 2px);
+  }
+}
+
+/* line 6, ../scss/pages/notess.scss */
+h3 {
+  font-family: Yellowtail;
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  padding-top: 4%;
+}
+
+/* line 18, ../scss/pages/notess.scss */
+.soulignementtitre {
+  background: linear-gradient(to top, #42191e 0%, #42191e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size .5s;
+  display: inline-block;
+  width: 33.3%;
+}
+/* line 22, ../scss/pages/notess.scss */
+.soulignementtitre:hover {
+  background-size: 100% 100%;
+}
+
+/* line 27, ../scss/pages/notess.scss */
+h3::before {
+  content: "";
+  border-bottom: 2px solid #42191e;
+  vertical-align: middle;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 39, ../scss/pages/notess.scss */
+h3::after {
+  content: "";
+  vertical-align: middle;
+  border-bottom: 2px solid #42191e;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 49, ../scss/pages/notess.scss */
+.fa-music {
+  background: -webkit-gradient(linear, left top, right top, from(#f05560), to(#f89f82));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+
+/* line 58, ../scss/pages/notess.scss */
+main {
+  width: 100%;
+}
+
+/* line 64, ../scss/pages/notess.scss */
+.titre3 {
+  text-align: center;
+  width: 100%;
+  font-family: Yellowtail;
+  font-size: 26px;
+}
+
+/* line 72, ../scss/pages/notess.scss */
+ul {
+  font-family: Yellowtail;
+  font-size: 20px;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 82, ../scss/pages/notess.scss */
+li {
+  display: flex;
+  padding-top: 5%;
+}
+
+/* line 88, ../scss/pages/notess.scss */
+.élement {
+  width: 90%;
+}
+
+/* line 92, ../scss/pages/notess.scss */
+.élement2 {
+  width: 10%;
+}
+
+/* line 95, ../scss/pages/notess.scss */
+.élement3 {
+  width: 100%;
+}
+
+/* line 98, ../scss/pages/notess.scss */
+#conteneur {
+  color: #42191e;
+  background-color: #fcdfdb;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid gray;
+  padding: 7%;
+}
+
+/* line 108, ../scss/pages/notess.scss */
+.notehaut {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 113, ../scss/pages/notess.scss */
+.lanote {
+  font-family: Yellowtail;
+  font-size: 20px;
+  padding: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 128, ../scss/pages/notess.scss */
+a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 739px) {
+  /* line 133, ../scss/pages/notess.scss */
+  main {
+    margin-bottom: 25%;
+  }
+
+  /* line 136, ../scss/pages/notess.scss */
+  ul {
+    display: block;
+  }
+}
+/* line 1, ../scss/base/base.scss */
+body {
+  width: 100%;
+  margin: 0;
+}

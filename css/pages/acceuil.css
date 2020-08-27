@@ -1,0 +1,274 @@
+/* line 1, ../../scss/pages/acceuil.scss */
+#conteneur {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* line 17, ../../scss/pages/acceuil.scss */
+.lanote {
+  border: 3px solid #E0E0E0;
+  text-align: center;
+  width: 33.3%;
+  margin-top: 5%;
+  background-color: #fcdfdb;
+  font-family: Yellowtail, cursive;
+}
+
+/* line 28, ../../scss/pages/acceuil.scss */
+.lechic {
+  border: 3px solid #E0E0E0;
+  text-align: center;
+  width: 33.3%;
+  margin-top: 5%;
+  background-color: #fff5fe;
+  font-family: Snell Roundhand, cursive;
+}
+
+/* line 41, ../../scss/pages/acceuil.scss */
+.ledelice {
+  border: 3px solid #E0E0E0;
+  text-align: center;
+  width: 33.3%;
+  margin-top: 5%;
+  background-color: #f9f9f9;
+  font-family: Cedarville Cursive, cursive;
+}
+
+/* line 53, ../../scss/pages/acceuil.scss */
+.lapalette {
+  border: 3px solid #E0E0E0;
+  text-align: center;
+  width: 33.3%;
+  margin-top: 5%;
+  background-color: #fdfffd;
+  font-family: Gloria Hallelujah, cursive;
+}
+
+/* line 65, ../../scss/pages/acceuil.scss */
+.menu1 {
+  font-size: 25px;
+  color: #42191e;
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  transform: scale(1);
+}
+/* line 72, ../../scss/pages/acceuil.scss */
+.menu1:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+/* line 79, ../../scss/pages/acceuil.scss */
+.menu2 {
+  background: -webkit-gradient(linear, left top, right top, from(#dfa272), to(#9460fb));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  transform: scale(1);
+}
+/* line 89, ../../scss/pages/acceuil.scss */
+.menu2:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+/* line 95, ../../scss/pages/acceuil.scss */
+.menu3 {
+  background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#9ccdf9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  transform: scale(1);
+}
+/* line 104, ../../scss/pages/acceuil.scss */
+.menu3:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+/* line 110, ../../scss/pages/acceuil.scss */
+.menu4 {
+  background: -webkit-gradient(linear, left top, right top, from(#71b565), to(#d4ffaa));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  transform: scale(1);
+}
+/* line 118, ../../scss/pages/acceuil.scss */
+.menu4:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+/* line 124, ../../scss/pages/acceuil.scss */
+.fa-music {
+  font-size: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#f05560), to(#f89f82));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 133, ../../scss/pages/acceuil.scss */
+a:link {
+  text-decoration: none;
+}
+
+/* line 145, ../../scss/pages/acceuil.scss */
+.pro {
+  border-radius: 8px;
+  margin-top: 2.5%;
+  margin-left: 35%;
+  width: 30%;
+  font-size: 22px;
+  transform: scale(1, 1);
+  margin-bottom: 10%;
+  background-color: #579c87;
+}
+/* line 155, ../../scss/pages/acceuil.scss */
+.pro:hover {
+  transform: scale(1.15);
+}
+
+/* line 163, ../../scss/pages/acceuil.scss */
+.colorpro {
+  color: #f8c948;
+}
+
+/* line 168, ../../scss/pages/acceuil.scss */
+ul {
+  display: inline-block;
+}
+
+/* line 170, ../../scss/pages/acceuil.scss */
+li {
+  display: inline-block;
+  animation: prochainement 7s linear infinite;
+  color: #579c87;
+}
+
+@keyframes prochainement {
+  /* line 179, ../../scss/pages/acceuil.scss */
+  0% {
+    color: #f8c948;
+  }
+
+  /* line 185, ../../scss/pages/acceuil.scss */
+  10% {
+    color: #f8c948;
+  }
+
+  /* line 190, ../../scss/pages/acceuil.scss */
+  20% {
+    color: #f8c948;
+  }
+
+  /* line 193, ../../scss/pages/acceuil.scss */
+  30% {
+    color: #f8c948;
+  }
+
+  /* line 196, ../../scss/pages/acceuil.scss */
+  40% {
+    color: #f8c948;
+  }
+
+  /* line 199, ../../scss/pages/acceuil.scss */
+  50% {
+    color: #f8c948;
+  }
+
+  /* line 202, ../../scss/pages/acceuil.scss */
+  60% {
+    color: #579c87;
+  }
+
+  /* line 205, ../../scss/pages/acceuil.scss */
+  70% {
+    color: #579c87;
+  }
+
+  /* line 208, ../../scss/pages/acceuil.scss */
+  80% {
+    color: #579c87;
+  }
+
+  /* line 213, ../../scss/pages/acceuil.scss */
+  90% {
+    color: #579c87;
+  }
+
+  /* line 217, ../../scss/pages/acceuil.scss */
+  100% {
+    color: #579c87;
+  }
+}
+
+/* line 223, ../../scss/pages/acceuil.scss */
+li:nth-child(1) {
+  animation-delay: 3s;
+}
+
+/* line 229, ../../scss/pages/acceuil.scss */
+li:nth-child(2) {
+  animation-delay: 4s;
+}
+
+/* line 234, ../../scss/pages/acceuil.scss */
+li:nth-child(3) {
+  animation-delay: 5s;
+}
+
+/* line 239, ../../scss/pages/acceuil.scss */
+li:nth-child(4) {
+  animation-delay: 6s;
+}
+
+@media screen and (max-width: 739px) {
+  /* line 246, ../../scss/pages/acceuil.scss */
+  #conteneur {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* line 257, ../../scss/pages/acceuil.scss */
+  .lanote {
+    width: 70%;
+  }
+
+  /* line 261, ../../scss/pages/acceuil.scss */
+  .lechic {
+    width: 70%;
+    margin-top: 5%;
+  }
+
+  /* line 267, ../../scss/pages/acceuil.scss */
+  .lapalette {
+    width: 70%;
+    margin-top: 5%;
+  }
+
+  /* line 272, ../../scss/pages/acceuil.scss */
+  .ledelice {
+    width: 70%;
+    margin-top: 5%;
+  }
+
+  /* line 277, ../../scss/pages/acceuil.scss */
+  .pro {
+    width: 45%;
+    margin-bottom: 25%;
+    margin-left: 25%;
+  }
+}

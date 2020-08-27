@@ -1,0 +1,287 @@
+#conteneur{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+@mixin menu ($background, $font) {
+    border:3px solid #E0E0E0;
+    text-align: center;
+    width:33.3%;
+    margin-top:5%;
+    background-color:$background ; 
+    font-family:$font , cursive ;
+    
+}
+ 
+.lanote{
+    @include menu(#fcdfdb , Yellowtail);
+
+
+}
+    
+
+
+
+
+
+.lechic{
+    @include menu(#fff5fe , Snell Roundhand) ;
+   
+  
+
+
+}
+   
+  
+  
+
+
+
+.ledelice{ 
+    @include menu( #f9f9f9,  Cedarville Cursive ) ;
+   
+  
+
+}
+
+    
+   
+
+
+
+.lapalette{
+    @include menu(	#fdfffd , Gloria Hallelujah ) ; 
+
+
+  
+     
+
+}
+    
+    
+
+
+.menu1 {
+    font-size:25px;
+    color:	#42191e;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    transform: scale(1) ;
+    &:hover{
+        transform: scale(1.20);
+        opacity: 0.5;
+    }
+}
+
+
+.menu2 {
+    background: -webkit-gradient(  linear, left top, right top, from( 	#dfa272), to(#9460fb));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:22px;
+
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    transform: scale(1) ;
+    &:hover{
+        transform: scale(1.20);
+        opacity: 0.5;
+    }
+}
+
+.menu3 {
+    background: -webkit-gradient(  linear, left top, right top, from( #1b46e2), to(	#9ccdf9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+font-size:25px;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    transform: scale(1) ;
+    &:hover{
+        transform: scale(1.20);
+        opacity: 0.5;
+    }
+}
+
+.menu4 { background: -webkit-gradient(  linear, left top, right top, from( #71b565), to(#d4ffaa));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:25px;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    transform: scale(1) ;
+    &:hover{
+        transform: scale(1.20);
+        opacity: 0.5;
+    }
+}
+
+.fa-music{
+    font-size: 50px;
+    background: -webkit-gradient(  linear, left top, right top, from( #f05560), to(#f89f82));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+    
+
+    
+
+
+
+.pro {
+    border-radius:8px;
+    margin-top: 2.5%;
+margin-left: 35%;
+width: 30%;
+font-size: 22px;
+transform:scale(1,1);
+margin-bottom:10%;
+    background-color:#579c87;
+    
+    &:hover{
+        transform:scale(1.15);
+       
+
+        }
+
+}
+
+.colorpro{
+    color:#f8c948;
+}
+
+
+ul{ display:inline-block;}
+ 
+  li {
+    display:inline-block;
+    animation: prochainement 7s linear infinite ;
+    color:#579c87;
+}
+
+
+
+@keyframes prochainement{
+    0%{
+        color:#f8c948;
+       
+
+    }
+
+    10%{
+        color:#f8c948;
+        
+    
+    }
+    20%{
+        color:#f8c948;
+    }
+    30%{
+        color:#f8c948;
+    }
+    40%{
+        color:#f8c948;
+    }
+    50%{
+        color:#f8c948;
+    }
+    60%{
+        color:#579c87;
+    }
+    70%{
+        color:#579c87;
+    }
+    80%{
+        color:#579c87;
+    }
+    
+    
+    90%{
+        color:#579c87;
+    }
+
+    100%{
+        color:#579c87;
+    }
+
+}
+
+li:nth-child(1){
+     
+ animation-delay:3s ;
+}
+
+
+li:nth-child(2){
+    animation-delay: 4s ;
+    
+}
+
+li:nth-child(3){
+    animation-delay: 5s;
+
+}
+
+li:nth-child(4){
+    animation-delay:6s
+    
+    ;
+}
+
+@media screen  and (max-width:739px){
+#conteneur{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}   
+
+
+    .lanote{
+        width:70%;
+    }
+
+.lechic{
+    width:70%;
+    margin-top:5%;
+}
+
+    
+.lapalette{
+    width:70%;
+    margin-top:5%;
+}
+
+.ledelice{
+    width:70%;
+    margin-top:5%;
+}
+
+.pro{
+    width:45%;
+    margin-bottom:25%;
+    margin-left:25%;
+}
+
+}
+
+
+
+
