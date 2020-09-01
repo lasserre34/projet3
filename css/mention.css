@@ -16,7 +16,7 @@ header h1 {
 /* line 14, ../scss/layout/header.scss */
 .titre2 {
   color: #42191e;
-  font-family: 'Oswald' sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 26px;
   text-align: center;
 }
@@ -46,7 +46,7 @@ footer {
 /* line 22, ../scss/layout/footer.scss */
 .lienfooter {
   color: #f8c948;
-  font-family: 'Oswald' sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 /* line 27, ../scss/layout/footer.scss */

@@ -16,7 +16,7 @@ header h1 {
 /* line 14, ../scss/layout/header.scss */
 .titre2 {
   color: #42191e;
-  font-family: 'Oswald' sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 26px;
   text-align: center;
 }
@@ -46,7 +46,7 @@ footer {
 /* line 22, ../scss/layout/footer.scss */
 .lienfooter {
   color: #f8c948;
-  font-family: 'Oswald' sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 /* line 27, ../scss/layout/footer.scss */
@@ -130,7 +130,7 @@ h3 {
 
 /* line 10, ../scss/pages/chic.scss */
 .soulignementtitre {
-  background: linear-gradient(to top, #df7401 0%, #df7401 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  background: linear-gradient(to top, #df7401 0%, #df7401 10%, transparent 10%) no-repeat left bottom/0 100%;
   transition: background-size .5s;
   display: inline-block;
   width: 33.3%;
