@@ -124,7 +124,7 @@ h3 {
 
 /* line 18, ../scss/pages/notess.scss */
 .soulignementtitre {
-  background: linear-gradient(to top, #42191e 0%, #42191e 10%, transparent 10%) no-repeat left bottom/0 100%;
+  background: linear-gradient(to top, #42191e 0%, #42191e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size .5s;
   display: inline-block;
   width: 33.3%;
@@ -256,6 +256,16 @@ a:link {
   /* line 147, ../scss/pages/notess.scss */
   .soulignementtitre {
     width: 100%;
+  }
+
+  /* line 151, ../scss/pages/notess.scss */
+  h3::before {
+    display: none;
+  }
+
+  /* line 154, ../scss/pages/notess.scss */
+  h3::after {
+    display: none;
   }
 }
 /* line 1, ../scss/base/base.scss */

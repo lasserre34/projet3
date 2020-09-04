@@ -147,6 +147,13 @@ main{
     .soulignementtitre{
         width:100%;
     }
+
+    h3::before{
+        display:none;
+    }
+    h3::after{
+        display:none;
+    }
 }
 
 

@@ -142,4 +142,14 @@ a:link {
   .soulignementtitre {
     width: 100%;
   }
+
+  /* line 151, ../../scss/pages/notess.scss */
+  h3::before {
+    display: none;
+  }
+
+  /* line 154, ../../scss/pages/notess.scss */
+  h3::after {
+    display: none;
+  }
 }
