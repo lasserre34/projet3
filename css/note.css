@@ -237,14 +237,25 @@ a:link {
 }
 
 @media screen and (max-width: 739px) {
-  /* line 133, ../scss/pages/notess.scss */
+  /* line 134, ../scss/pages/notess.scss */
   main {
     margin-bottom: 25%;
   }
 
-  /* line 136, ../scss/pages/notess.scss */
+  /* line 137, ../scss/pages/notess.scss */
   ul {
     display: block;
+  }
+
+  /* line 142, ../scss/pages/notess.scss */
+  .élement {
+    text-align: center;
+    padding-top: 20%;
+  }
+
+  /* line 147, ../scss/pages/notess.scss */
+  .soulignementtitre {
+    width: 100%;
   }
 }
 /* line 1, ../scss/base/base.scss */

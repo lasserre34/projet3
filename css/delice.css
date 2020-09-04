@@ -241,4 +241,15 @@ a:link {
   h3:after {
     display: none;
   }
+
+  /* line 143, ../scss/pages/delice.scss */
+  .soulignementtitre {
+    width: 100%;
+  }
+
+  /* line 148, ../scss/pages/delice.scss */
+  .élement {
+    text-align: center;
+    padding-top: 20%;
+  }
 }

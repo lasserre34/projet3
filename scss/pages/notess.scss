@@ -127,6 +127,7 @@ main{
      
      a:link{
          text-decoration: none;
+
      }
      
      @media screen  and (max-width:739px){
@@ -136,7 +137,17 @@ main{
         ul{
             display:block;
         }
+       
+
+       .élement{
+           text-align:center;
+           padding-top:20%;
        }
+
+    .soulignementtitre{
+        width:100%;
+    }
+}
 
 
        

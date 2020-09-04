@@ -48,7 +48,7 @@ main{
 
 
 
-.titre3{  background: -webkit-gradient(  linear, left top, right top, from( #71b565), to(#d4ffaa));
+.titre3{  background: linear-gradient #71b565 to #d4ffaa));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align:center;
@@ -115,7 +115,7 @@ main{
         main{
             margin-bottom:25%;
         }
-       }
+       
 
        h3::before{
            display:none;
@@ -128,3 +128,12 @@ main{
        ul{
            display:block;
        }
+
+       .élement{
+           padding-top:20%;
+           text-align:center;
+       }
+.soulignementtitre{
+    width:100%;
+}
+     }
