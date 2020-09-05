@@ -62,6 +62,9 @@ main{
     width:100%;
     font-family: Snell Roundhand;
         font-size: 38px;
+        background: -mz-linear-gradient(  linear, left top, right top, from( 	#dfa272), to(#9460fb));
+        background: -ms-linear-gradient(  linear, left top, right top, from( 	#dfa272), to(#9460fb));
+         background: -o-linear-gradient(  linear, left top, right top, from( 	#dfa272), to(#9460fb));
         background: -webkit-gradient(  linear, left top, right top, from(#d18c3e ), to(#8e72d7));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

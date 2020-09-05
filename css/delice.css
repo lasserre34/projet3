@@ -130,7 +130,7 @@ h3 {
 
 /* line 13, ../scss/pages/delice.scss */
 .soulignementtitre {
-  background: linear-gradient(to top, #1b46e2 0%, #9ccdf9 10%, transparent 10%) no-repeat left bottom/0 100%;
+  background: linear-gradient(to top, #1b46e2 0%, #9ccdf9 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size .5s;
   display: inline-block;
   width: 33.3%;
@@ -165,6 +165,9 @@ main {
 
 /* line 61, ../scss/pages/delice.scss */
 .titre3 {
+  background: -mz-linear-gradient(linear, left top, right top, from(#1b46e2), to(#9ccdf9));
+  background: -ms-linear-gradient(linear, left top, right top, from(#1b46e2), to(#9ccdf9));
+  background: -o-linear-gradient(linear, left top, right top, from(#1b46e2), to(#9ccdf9));
   background: -webkit-gradient(linear, left top, right top, from(#1b46e2), to(#9ccdf9));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -174,7 +177,7 @@ main {
   font-size: 50px;
 }
 
-/* line 73, ../scss/pages/delice.scss */
+/* line 76, ../scss/pages/delice.scss */
 ul {
   font-family: Cedarville Cursive;
   font-size: 20px;
@@ -185,23 +188,23 @@ ul {
   flex-wrap: wrap;
 }
 
-/* line 84, ../scss/pages/delice.scss */
+/* line 87, ../scss/pages/delice.scss */
 li {
   display: flex;
   padding-top: 5%;
 }
 
-/* line 90, ../scss/pages/delice.scss */
+/* line 93, ../scss/pages/delice.scss */
 .élement {
   width: 90%;
 }
 
-/* line 94, ../scss/pages/delice.scss */
+/* line 97, ../scss/pages/delice.scss */
 .élement2 {
   width: 10%;
 }
 
-/* line 100, ../scss/pages/delice.scss */
+/* line 103, ../scss/pages/delice.scss */
 #conteneur {
   background-color: #f9f9f9;
   margin-bottom: 5%;
@@ -211,43 +214,43 @@ li {
   padding: 7%;
 }
 
-/* line 116, ../scss/pages/delice.scss */
+/* line 119, ../scss/pages/delice.scss */
 .traitflex {
   display: flex;
 }
 
-/* line 121, ../scss/pages/delice.scss */
+/* line 124, ../scss/pages/delice.scss */
 a:link {
   text-decoration: none;
 }
 
 @media screen and (max-width: 739px) {
-  /* line 127, ../scss/pages/delice.scss */
+  /* line 130, ../scss/pages/delice.scss */
   main {
     margin-bottom: 25%;
   }
 
-  /* line 130, ../scss/pages/delice.scss */
+  /* line 133, ../scss/pages/delice.scss */
   ul {
     display: block;
   }
 
-  /* line 134, ../scss/pages/delice.scss */
+  /* line 137, ../scss/pages/delice.scss */
   h3::before {
     display: none;
   }
 
-  /* line 137, ../scss/pages/delice.scss */
+  /* line 140, ../scss/pages/delice.scss */
   h3:after {
     display: none;
   }
 
-  /* line 143, ../scss/pages/delice.scss */
+  /* line 146, ../scss/pages/delice.scss */
   .soulignementtitre {
     width: 100%;
   }
 
-  /* line 148, ../scss/pages/delice.scss */
+  /* line 151, ../scss/pages/delice.scss */
   .élement {
     text-align: center;
     padding-top: 20%;

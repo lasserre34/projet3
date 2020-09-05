@@ -59,6 +59,9 @@ main{
 
 
 .titre3{
+    background: -mz-linear-gradient( linear, left top, right top, from( #1b46e2), to(	#9ccdf9) );
+   background: -ms-linear-gradient(linear, left top, right top, from( #1b46e2), to(	#9ccdf9) );
+    background: -o-linear-gradient( linear, left top, right top, from( #1b46e2), to(	#9ccdf9) );
     background: -webkit-gradient(  linear, left top, right top, from( #1b46e2), to(	#9ccdf9));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

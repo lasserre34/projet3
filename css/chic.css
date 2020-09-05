@@ -130,7 +130,7 @@ h3 {
 
 /* line 10, ../scss/pages/chic.scss */
 .soulignementtitre {
-  background: linear-gradient(to top, #df7401 0%, #df7401 10%, transparent 10%) no-repeat left bottom/0 100%;
+  background: linear-gradient(to top, #df7401 0%, #df7401 10%, transparent 10.01%) no-repeat left bottom/0 100%;
   transition: background-size .5s;
   display: inline-block;
   width: 33.3%;
@@ -184,12 +184,15 @@ main {
   width: 100%;
   font-family: Snell Roundhand;
   font-size: 38px;
+  background: -mz-linear-gradient(linear, left top, right top, from(#dfa272), to(#9460fb));
+  background: -ms-linear-gradient(linear, left top, right top, from(#dfa272), to(#9460fb));
+  background: -o-linear-gradient(linear, left top, right top, from(#dfa272), to(#9460fb));
   background: -webkit-gradient(linear, left top, right top, from(#d18c3e), to(#8e72d7));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 73, ../scss/pages/chic.scss */
+/* line 76, ../scss/pages/chic.scss */
 ul {
   font-family: Snell Roundhand;
   font-size: 20px;
@@ -200,28 +203,28 @@ ul {
   flex-wrap: wrap;
 }
 
-/* line 83, ../scss/pages/chic.scss */
+/* line 86, ../scss/pages/chic.scss */
 li {
   display: flex;
   padding-top: 5%;
 }
 
-/* line 89, ../scss/pages/chic.scss */
+/* line 92, ../scss/pages/chic.scss */
 .élement {
   width: 90%;
 }
 
-/* line 93, ../scss/pages/chic.scss */
+/* line 96, ../scss/pages/chic.scss */
 .élement2 {
   width: 10%;
 }
 
-/* line 96, ../scss/pages/chic.scss */
+/* line 99, ../scss/pages/chic.scss */
 .élement3 {
   width: 100%;
 }
 
-/* line 99, ../scss/pages/chic.scss */
+/* line 102, ../scss/pages/chic.scss */
 #conteneur {
   background-color: #fff5fe;
   margin-bottom: 5%;
@@ -231,39 +234,39 @@ li {
   padding: 7%;
 }
 
-/* line 118, ../scss/pages/chic.scss */
+/* line 121, ../scss/pages/chic.scss */
 a:link {
   text-decoration: none;
 }
 
 @media screen and (max-width: 739px) {
-  /* line 124, ../scss/pages/chic.scss */
+  /* line 127, ../scss/pages/chic.scss */
   main {
     margin-bottom: 25%;
   }
 
-  /* line 127, ../scss/pages/chic.scss */
+  /* line 130, ../scss/pages/chic.scss */
   ul {
     display: block;
   }
 
-  /* line 130, ../scss/pages/chic.scss */
+  /* line 133, ../scss/pages/chic.scss */
   h3:before {
     display: none;
   }
 
-  /* line 133, ../scss/pages/chic.scss */
+  /* line 136, ../scss/pages/chic.scss */
   h3:after {
     display: none;
   }
 
-  /* line 139, ../scss/pages/chic.scss */
+  /* line 142, ../scss/pages/chic.scss */
   .élement {
     text-align: center;
     padding-top: 20%;
   }
 
-  /* line 145, ../scss/pages/chic.scss */
+  /* line 148, ../scss/pages/chic.scss */
   .soulignementtitre {
     width: 100%;
   }

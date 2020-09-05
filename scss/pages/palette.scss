@@ -48,7 +48,10 @@ main{
 
 
 
-.titre3{    background: -webkit-gradient(  linear, left top, right top, from( #71b565), to(#d4ffaa));
+.titre3{   background: -mz-linear-gradient( linear, left top, right top, from( #71b565), to(#d4ffaa));
+    background: -ms-linear-gradient( linear, left top, right top, from( #71b565), to(#d4ffaa));
+     background: -o-linear-gradient( linear, left top, right top, from( #71b565), to(#d4ffaa));
+     background: -webkit-gradient(  linear, left top, right top, from( #71b565), to(#d4ffaa));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align:center;
