@@ -27,7 +27,7 @@ footer {
 }
 
 /* line 27, ../scss/layout/footer.scss */
-p:hover {
+.bouge:hover {
   animation-name: bouge;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -129,7 +129,7 @@ h3 {
 
 /* line 10, ../scss/pages/palette.scss */
 .soulignementtitre {
-  background: linear-gradient(to top, #2efe2e 0%, #2efe2e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  background: linear-gradient(to top, #2efe2e 0%, #2efe2e 10%, transparent 10%) no-repeat left bottom/0 100%;
   transition: background-size .5s;
   display: inline-block;
   width: 33.3%;

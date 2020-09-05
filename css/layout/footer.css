@@ -27,7 +27,7 @@ footer {
 }
 
 /* line 27, ../../scss/layout/footer.scss */
-p:hover {
+.bouge:hover {
   animation-name: bouge;
   animation-duration: 1s;
   animation-iteration-count: infinite;

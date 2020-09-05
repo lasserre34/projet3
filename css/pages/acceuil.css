@@ -133,21 +133,16 @@ a:link {
   margin-left: 35%;
   width: 30%;
   font-size: 22px;
-  transform: scale(1, 1);
   margin-bottom: 10%;
   background-color: #579c87;
 }
-/* line 157, ../../scss/pages/acceuil.scss */
-.pro:hover {
-  transform: scale(1.15);
-}
 
-/* line 165, ../../scss/pages/acceuil.scss */
+/* line 160, ../../scss/pages/acceuil.scss */
 .colorpro {
   color: #f8c948;
 }
 
-/* line 173, ../../scss/pages/acceuil.scss */
+/* line 168, ../../scss/pages/acceuil.scss */
 .animp {
   display: inline-block;
   animation: prochainement 7s linear infinite;
@@ -155,114 +150,114 @@ a:link {
 }
 
 @keyframes prochainement {
-  /* line 183, ../../scss/pages/acceuil.scss */
+  /* line 178, ../../scss/pages/acceuil.scss */
   0% {
     color: #f8c948;
   }
 
-  /* line 189, ../../scss/pages/acceuil.scss */
+  /* line 184, ../../scss/pages/acceuil.scss */
   10% {
     color: #f8c948;
   }
 
-  /* line 194, ../../scss/pages/acceuil.scss */
+  /* line 189, ../../scss/pages/acceuil.scss */
   20% {
     color: #f8c948;
   }
 
-  /* line 197, ../../scss/pages/acceuil.scss */
+  /* line 192, ../../scss/pages/acceuil.scss */
   30% {
     color: #f8c948;
   }
 
-  /* line 200, ../../scss/pages/acceuil.scss */
+  /* line 195, ../../scss/pages/acceuil.scss */
   40% {
     color: #f8c948;
   }
 
-  /* line 203, ../../scss/pages/acceuil.scss */
+  /* line 198, ../../scss/pages/acceuil.scss */
   50% {
     color: #f8c948;
   }
 
-  /* line 206, ../../scss/pages/acceuil.scss */
+  /* line 201, ../../scss/pages/acceuil.scss */
   60% {
     color: #579c87;
   }
 
-  /* line 209, ../../scss/pages/acceuil.scss */
+  /* line 204, ../../scss/pages/acceuil.scss */
   70% {
     color: #579c87;
   }
 
-  /* line 212, ../../scss/pages/acceuil.scss */
+  /* line 207, ../../scss/pages/acceuil.scss */
   80% {
     color: #579c87;
   }
 
-  /* line 217, ../../scss/pages/acceuil.scss */
+  /* line 212, ../../scss/pages/acceuil.scss */
   90% {
     color: #579c87;
   }
 
-  /* line 221, ../../scss/pages/acceuil.scss */
+  /* line 216, ../../scss/pages/acceuil.scss */
   100% {
     color: #579c87;
   }
 }
 
-/* line 227, ../../scss/pages/acceuil.scss */
+/* line 222, ../../scss/pages/acceuil.scss */
 .animp:nth-child(1) {
   animation-delay: 3s;
 }
 
-/* line 233, ../../scss/pages/acceuil.scss */
+/* line 228, ../../scss/pages/acceuil.scss */
 .animp:nth-child(2) {
   animation-delay: 4s;
 }
 
-/* line 238, ../../scss/pages/acceuil.scss */
+/* line 233, ../../scss/pages/acceuil.scss */
 .animp:nth-child(3) {
   animation-delay: 5s;
 }
 
-/* line 243, ../../scss/pages/acceuil.scss */
+/* line 238, ../../scss/pages/acceuil.scss */
 .animp:nth-child(4) {
   animation-delay: 6s;
 }
 
 @media screen and (max-width: 739px) {
-  /* line 250, ../../scss/pages/acceuil.scss */
+  /* line 245, ../../scss/pages/acceuil.scss */
   #conteneur {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
 
-  /* line 261, ../../scss/pages/acceuil.scss */
+  /* line 256, ../../scss/pages/acceuil.scss */
   .lanote {
     width: 70%;
   }
 
-  /* line 265, ../../scss/pages/acceuil.scss */
+  /* line 260, ../../scss/pages/acceuil.scss */
   .lechic {
     width: 70%;
     margin-top: 5%;
   }
 
-  /* line 271, ../../scss/pages/acceuil.scss */
+  /* line 266, ../../scss/pages/acceuil.scss */
   .lapalette {
     width: 70%;
     margin-top: 5%;
   }
 
-  /* line 276, ../../scss/pages/acceuil.scss */
+  /* line 271, ../../scss/pages/acceuil.scss */
   .ledelice {
     width: 70%;
     margin-top: 5%;
   }
 
-  /* line 281, ../../scss/pages/acceuil.scss */
+  /* line 276, ../../scss/pages/acceuil.scss */
   .pro {
     width: 50%;
     margin-bottom: 25%;
