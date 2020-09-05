@@ -77,10 +77,13 @@
 
 
 .menu2 {
+    background: -mz-linear-gradient(  linear, left top, right top, from( 	#dfa272), to(#9460fb));
+    background: -ms-linear-gradient(  linear, left top, right top, from( 	#dfa272), to(#9460fb));
+     background: -o-linear-gradient(  linear, left top, right top, from( 	#dfa272), to(#9460fb));
     background: -webkit-gradient(  linear, left top, right top, from( 	#dfa272), to(#9460fb));
     -webkit-text-fill-color: transparent;
-    font-size:22px;
     -webkit-background-clip: text;
+    font-size:22px;
     width:100%;
     padding-top:50%;
     padding-bottom:50%;
@@ -92,8 +95,8 @@
 }
 
 .menu3 {
-    background-image: -webkit-gradient( linear, left top, right top, from( #1b46e2), to(	#9ccdf9) );
-   
+    background: -mz-linear-gradient( linear, left top, right top, from( #1b46e2), to(	#9ccdf9) );
+   background: -ms-linear-gradient(linear, left top, right top, from( #1b46e2), to(	#9ccdf9) );
     background: -o-linear-gradient( linear, left top, right top, from( #1b46e2), to(	#9ccdf9) );
     background: -webkit-gradient(  linear, left top, right top, from( #1b46e2), to(	#9ccdf9));
     -webkit-background-clip: text;
@@ -109,7 +112,10 @@ font-size:25px;
     }
 }
 
-.menu4 { background: -webkit-gradient(  linear, left top, right top, from( #71b565), to(#d4ffaa));
+.menu4 { background: -mz-linear-gradient( linear, left top, right top, from( #71b565), to(#d4ffaa));
+    background: -ms-linear-gradient( linear, left top, right top, from( #71b565), to(#d4ffaa));
+     background: -o-linear-gradient( linear, left top, right top, from( #71b565), to(#d4ffaa));
+     background: -webkit-gradient(  linear, left top, right top, from( #71b565), to(#d4ffaa));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size:25px;
