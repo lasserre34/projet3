@@ -1,58 +1,128 @@
-/*
-Syntax error: Invalid CSS after "     }": expected "}", was ""
-        on line 139 of D:/Git/projetopenclass3/projet3/projet3/projet3/scss/pages/palette.scss
+/* line 1, ../../scss/pages/palette.scss */
+h3 {
+  font-family: Gloria Hallelujah;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 3%;
+}
 
-Backtrace:
-D:/Git/projetopenclass3/projet3/projet3/projet3/scss/pages/palette.scss:139
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1129:in `expected'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1066:in `expected'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1061:in `tok!'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:519:in `block'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:512:in `ruleset'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:536:in `block_child'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:529:in `block_contents'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:70:in `stylesheet'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:27:in `parse'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:342:in `_to_tree'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:315:in `_render'
-D:/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:262:in `render'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-org/jruby/RubyArray.java:1603:in `each'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-org/jruby/RubyMethod.java:133:in `call'
-org/jruby/RubyProc.java:268:in `call'
-org/jruby/RubyProc.java:228:in `call'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
-org/jruby/RubyArray.java:1603:in `each'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-org/jruby/RubyArray.java:1603:in `each'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-org/jruby/RubyKernel.java:1419:in `loop'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-D:/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-D:/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-D:\bin\compass:12:in `(root)'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"     }\": expected \"}\", was \"\"\A         on line 139 of D:/Git/projetopenclass3/projet3/projet3/projet3/scss/pages/palette.scss"; }
+/* line 10, ../../scss/pages/palette.scss */
+.soulignementtitre {
+  background: linear-gradient(to top, #2efe2e 0%, #2efe2e 10%, transparent 10.01%) no-repeat left bottom/0 100%;
+  transition: background-size .5s;
+  display: inline-block;
+  width: 33.3%;
+}
+/* line 15, ../../scss/pages/palette.scss */
+.soulignementtitre:hover {
+  background-size: 100% 100%;
+}
+
+/* line 20, ../../scss/pages/palette.scss */
+h3::before {
+  content: "";
+  border-bottom: 2px solid #2EFE2E;
+  vertical-align: middle;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 33, ../../scss/pages/palette.scss */
+h3::after {
+  content: "";
+  vertical-align: middle;
+  border-bottom: 2px solid #2EFE2E;
+  display: inline-block;
+  width: 33.3%;
+}
+
+/* line 44, ../../scss/pages/palette.scss */
+main {
+  width: 100%;
+}
+
+/* line 51, ../../scss/pages/palette.scss */
+.titre3 {
+  background: -webkit-gradient(linear, left top, right top, from(#71b565), to(#d4ffaa));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  width: 100%;
+  font-family: Gloria Hallelujah;
+  font-size: 50px;
+}
+
+/* line 64, ../../scss/pages/palette.scss */
+ul {
+  font-family: Gloria Hallelujah;
+  font-size: 16px;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* line 74, ../../scss/pages/palette.scss */
+li {
+  display: flex;
+  padding-top: 5%;
+}
+
+/* line 80, ../../scss/pages/palette.scss */
+.élement {
+  width: 90%;
+}
+
+/* line 84, ../../scss/pages/palette.scss */
+.élement2 {
+  width: 10%;
+}
+
+/* line 90, ../../scss/pages/palette.scss */
+#conteneur {
+  background-color: #fdfffd;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid gray;
+  padding: 7%;
+}
+
+/* line 109, ../../scss/pages/palette.scss */
+a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 739px) {
+  /* line 115, ../../scss/pages/palette.scss */
+  main {
+    margin-bottom: 25%;
+  }
+
+  /* line 120, ../../scss/pages/palette.scss */
+  h3::before {
+    display: none;
+  }
+
+  /* line 124, ../../scss/pages/palette.scss */
+  h3::after {
+    display: none;
+  }
+
+  /* line 128, ../../scss/pages/palette.scss */
+  ul {
+    display: block;
+  }
+
+  /* line 132, ../../scss/pages/palette.scss */
+  .élement {
+    padding-top: 20%;
+    text-align: center;
+  }
+
+  /* line 136, ../../scss/pages/palette.scss */
+  .soulignementtitre {
+    width: 100%;
+  }
+}

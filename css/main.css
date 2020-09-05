@@ -171,7 +171,7 @@ p:hover {
 }
 /* line 72, ../scss/pages/acceuil.scss */
 .menu1:hover {
-  transform: scale(1.2);
+  transform: scale(1.08);
   opacity: 0.5;
 }
 
@@ -188,7 +188,7 @@ p:hover {
 }
 /* line 88, ../scss/pages/acceuil.scss */
 .menu2:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   opacity: 0.5;
 }
 
@@ -207,7 +207,7 @@ p:hover {
 }
 /* line 106, ../scss/pages/acceuil.scss */
 .menu3:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   opacity: 0.5;
 }
 
@@ -224,7 +224,7 @@ p:hover {
 }
 /* line 120, ../scss/pages/acceuil.scss */
 .menu4:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   opacity: 0.5;
 }
 
@@ -262,127 +262,127 @@ a:link {
   color: #f8c948;
 }
 
-/* line 170, ../scss/pages/acceuil.scss */
-ul {
+/* line 169, ../scss/pages/acceuil.scss */
+.animpro {
   display: inline-block;
 }
 
-/* line 172, ../scss/pages/acceuil.scss */
-li {
+/* line 174, ../scss/pages/acceuil.scss */
+.animp {
   display: inline-block;
   animation: prochainement 7s linear infinite;
   color: #579c87;
 }
 
 @keyframes prochainement {
-  /* line 181, ../scss/pages/acceuil.scss */
+  /* line 184, ../scss/pages/acceuil.scss */
   0% {
     color: #f8c948;
   }
 
-  /* line 187, ../scss/pages/acceuil.scss */
+  /* line 190, ../scss/pages/acceuil.scss */
   10% {
     color: #f8c948;
   }
 
-  /* line 192, ../scss/pages/acceuil.scss */
+  /* line 195, ../scss/pages/acceuil.scss */
   20% {
     color: #f8c948;
   }
 
-  /* line 195, ../scss/pages/acceuil.scss */
+  /* line 198, ../scss/pages/acceuil.scss */
   30% {
     color: #f8c948;
   }
 
-  /* line 198, ../scss/pages/acceuil.scss */
+  /* line 201, ../scss/pages/acceuil.scss */
   40% {
     color: #f8c948;
   }
 
-  /* line 201, ../scss/pages/acceuil.scss */
+  /* line 204, ../scss/pages/acceuil.scss */
   50% {
     color: #f8c948;
   }
 
-  /* line 204, ../scss/pages/acceuil.scss */
+  /* line 207, ../scss/pages/acceuil.scss */
   60% {
     color: #579c87;
   }
 
-  /* line 207, ../scss/pages/acceuil.scss */
+  /* line 210, ../scss/pages/acceuil.scss */
   70% {
     color: #579c87;
   }
 
-  /* line 210, ../scss/pages/acceuil.scss */
+  /* line 213, ../scss/pages/acceuil.scss */
   80% {
     color: #579c87;
   }
 
-  /* line 215, ../scss/pages/acceuil.scss */
+  /* line 218, ../scss/pages/acceuil.scss */
   90% {
     color: #579c87;
   }
 
-  /* line 219, ../scss/pages/acceuil.scss */
+  /* line 222, ../scss/pages/acceuil.scss */
   100% {
     color: #579c87;
   }
 }
 
-/* line 225, ../scss/pages/acceuil.scss */
-li:nth-child(1) {
+/* line 228, ../scss/pages/acceuil.scss */
+.animp:nth-child(1) {
   animation-delay: 3s;
 }
 
-/* line 231, ../scss/pages/acceuil.scss */
-li:nth-child(2) {
+/* line 234, ../scss/pages/acceuil.scss */
+.animp:nth-child(2) {
   animation-delay: 4s;
 }
 
-/* line 236, ../scss/pages/acceuil.scss */
-li:nth-child(3) {
+/* line 239, ../scss/pages/acceuil.scss */
+.animp:nth-child(3) {
   animation-delay: 5s;
 }
 
-/* line 241, ../scss/pages/acceuil.scss */
-li:nth-child(4) {
+/* line 244, ../scss/pages/acceuil.scss */
+.animp:nth-child(4) {
   animation-delay: 6s;
 }
 
 @media screen and (max-width: 739px) {
-  /* line 248, ../scss/pages/acceuil.scss */
+  /* line 251, ../scss/pages/acceuil.scss */
   #conteneur {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
 
-  /* line 259, ../scss/pages/acceuil.scss */
+  /* line 262, ../scss/pages/acceuil.scss */
   .lanote {
     width: 70%;
   }
 
-  /* line 263, ../scss/pages/acceuil.scss */
+  /* line 266, ../scss/pages/acceuil.scss */
   .lechic {
     width: 70%;
     margin-top: 5%;
   }
 
-  /* line 269, ../scss/pages/acceuil.scss */
+  /* line 272, ../scss/pages/acceuil.scss */
   .lapalette {
     width: 70%;
     margin-top: 5%;
   }
 
-  /* line 274, ../scss/pages/acceuil.scss */
+  /* line 277, ../scss/pages/acceuil.scss */
   .ledelice {
     width: 70%;
     margin-top: 5%;
   }
 
-  /* line 279, ../scss/pages/acceuil.scss */
+  /* line 282, ../scss/pages/acceuil.scss */
   .pro {
     width: 50%;
     margin-bottom: 25%;
